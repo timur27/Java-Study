@@ -1,0 +1,12 @@
+SellingService
+--------------
+
+Zostały dodane testy, dzięki którym procent pokrycia testami wynosi 100%.
+
+
+Link, z którego skorzystano:
+https://stackoverflow.com/questions/21105403/mocking-static-methods-with-mockito
+
+Do opdalenia jacocoTestReport wystarczy w zakładce "Gradle projects" odpalić taski z rozdziału
+[source, java]
+verification 
