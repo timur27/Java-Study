@@ -103,11 +103,12 @@ public class SellingServiceTest {
         Item item = new Item("Lenovo", new BigDecimal(15));
 
         Customer customer = new Customer(1, "Timur", "Sliska14");
-        uut.moneyService.addMoney(customer, new BigDecimal(10)); // na start dostaje 10 czyli teraz ma 20
+        uut.moneyService.addMoney(customer, new BigDecimal(10));
 
         //when
-        boolean sold = uut.sell(item, 1, customer, discountConfigWrapper.isWeekendPromotion());
         Mockito.when(discountConfigWrapper.isWeekendPromotion()).thenReturn(true);
+        boolean sold = uut.sell(item, 1, customer, discountConfigWrapper.isWeekendPromotion());
+
 
         Assert.assertTrue(sold);
         Assert.assertEquals(BigDecimal.valueOf(17), uut.moneyService.getMoney(customer));
