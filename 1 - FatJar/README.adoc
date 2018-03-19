@@ -1,0 +1,13 @@
+Fat-Jar and pushToLocalMaven
+---------------------------
+
+
+
+Aby zbudować plik .jar, który się pojawi pod adresem /build/libs, trzeba otworzyć terminal ora wpisać:
+[source, java]
+gradle runFatJar
+
+
+W celu dodania na lokalne repo Mavena .m2 w terminalu wpisać:
+[source, java]
+gradle PublishToMavenLocal

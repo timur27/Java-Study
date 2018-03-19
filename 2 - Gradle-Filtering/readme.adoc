@@ -1,0 +1,14 @@
+Filtrowanie plików w Mavenie
+----------------------------
+
+Po klonowaniu repozytorium wystarczy otworzyć cmd oraz, znajdując się w katalogu projektu (gradle-example) wpisać 
+
+[source,java]
+gradle myTask -Pprofile=test
+albo
+gradle myTask -Pprofile=dev
+
+Wówczas będzie można widzieć zmiany wartości w pliku db.properties pod ścieżką 
+[source, java]
+src/main/db.properties
+

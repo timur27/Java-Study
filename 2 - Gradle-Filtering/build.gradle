@@ -1,0 +1,61 @@
+group 'pl.edu.uj.ii'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/commons-lang/commons-lang
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
+}
+
+task fatJar(type: Jar) {
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+    manifest {
+        attributes 'Main-Class': 'Example'
+    }
+}
+
+task runFatJar(type: JavaExec) {
+    dependsOn fatJar
+    classpath = fatJar.outputs.files
+    main = 'Example'
+}
+
+task myTask{
+    if (project.hasProperty('profile') && project.profile=='dev'){
+        ant.propertyfile(file:"src/main/resources/db.properties"){
+            entry(key: "database.jdbc.driverClass", value: "timur")
+            entry(key: "database.jdbc.connectionURL", value: "127.0.0.1")
+            entry(key: "database.jdbc.username", value: "developer")
+            entry(key: "database.jdbc.password", value: "developer123")
+        }
+    }
+    if (project.hasProperty('profile') && project.profile=='test'){
+        ant.propertyfile(file:"src/main/resources/db.properties"){
+            entry(key: "database.jdbc.driverClass", value: "tester")
+            entry(key: "database.jdbc.connectionURL", value: "127.0.0.2")
+            entry(key: "database.jdbc.username", value: "tester")
+            entry(key: "database.jdbc.password", value: "tester123")
+        }
+    }
+}
+
+processResources {
+    filesMatching('**config.properties') {
+        expand(
+                'database.jdbc.driverClass': project.property('db.driverClass'),
+                'database.jdbc.connectionURL': project.property('db.connectionURL'),
+                'database.jdbc.username': project.property('db.username'),
+                'database.jdbc.password': project.property('db.password')
+        )
+    }
+}

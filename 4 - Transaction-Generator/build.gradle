@@ -1,0 +1,63 @@
+plugins{
+    id "java"
+    id "com.palantir.jacoco-coverage" version "0.4.0"
+    id "groovy"
+}
+
+
+group 'serialization'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes(
+                "Manifest-Version": "1.0",
+                "Main-Class": "Generator"
+        )
+    }
+}
+
+task fatJar(type: Jar) {
+    baseName = project.name + '-all'
+    from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
+    with jar
+    manifest {
+        attributes 'Main-Class': 'Generator'
+    }
+}
+
+task runFatJar(type: JavaExec) {
+    dependsOn fatJar
+    classpath = fatJar.outputs.files
+    main = 'Generator'
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile group: 'org.codehaus.jackson', name: 'jackson-mapper-asl', version: '1.9.13'
+    compile group: 'commons-cli', name: 'commons-cli', version: '1.4'
+    compileOnly "org.projectlombok:lombok:1.16.8"
+
+    testCompile(
+            //JUnit
+            'junit:junit:4.12',
+            //Rich asserting: AssertJ
+            'org.assertj:assertj-core:3.9.0',
+
+            //Mocks: Mockito
+            'org.mockito:mockito-core:2.8.9',
+    )
+}
+
+test {
+    reports {
+        junitXml.enabled = false
+        html.enabled = true
+    }
+}
