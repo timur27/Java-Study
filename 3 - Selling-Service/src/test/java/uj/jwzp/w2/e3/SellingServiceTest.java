@@ -111,7 +111,7 @@ public class SellingServiceTest {
 
 
         Assert.assertTrue(sold);
-        Assert.assertEquals(BigDecimal.valueOf(17), uut.moneyService.getMoney(customer));
+        Assert.assertEquals(BigDecimal.valueOf(8), uut.moneyService.getMoney(customer));
     }
 
     @Test
@@ -130,7 +130,7 @@ public class SellingServiceTest {
         boolean sold = uut.sell(item, 1, customer, discountConfigWrapper.isWeekendPromotion());
 
         Assert.assertTrue(sold);
-        Assert.assertEquals(BigDecimal.valueOf(18), uut.moneyService.getMoney(customer));
+        Assert.assertEquals(BigDecimal.valueOf(16), uut.moneyService.getMoney(customer));
     }
 
 
