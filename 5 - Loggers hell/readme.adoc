@@ -5,3 +5,8 @@ Przed tym, jak bezpośrednio budować projekt, trzeba zbudować dwa projekty zew
 [source, java]
 gradle pushToMavenLocal
 
+Następnie w konsoli mozna otworzyć jar plik w build/libs poleceniem
+[source, java]
+java -jar logers..... {4 argumenty}
+
+W logowaniu wyświetlą się dane nie tylko z DiscountCalculator, ale również z PaymentService
