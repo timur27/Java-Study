@@ -20,7 +20,6 @@ public class OptionsGenerator {
     }
 
     public static Transaction fillTransaction(Transaction transaction, CommandLine cmd){
-        System.out.println("TIMKA");
         if (cmd.hasOption("customerIds"))
             transaction.setCustomerID(cmd.getOptionValue("customerIds"));
         if (cmd.hasOption("dateRange"))

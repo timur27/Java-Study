@@ -8,6 +8,7 @@ import org.mockito.junit.MockitoRule;
 
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.IOException;
 import java.sql.Time;
 import java.time.Instant;
 import java.time.LocalDateTime;
@@ -136,6 +137,18 @@ public class ParserTest {
         results = parser.parseValues(transaction, savedObject);
         Assert.assertEquals(results[0], 1);
         Assert.assertEquals(results[1], 5);
+    }
+
+    @Test
+    public void testParserAll() throws IOException {
+        Transaction transaction = new Transaction();
+        transaction.setItemsFile("items.csv");
+        int id = 1;
+        File file = new File("D:\\items.csv");
+
+        parser.parse(transaction, id, file);
+
+        Assert.assertEquals(transaction.getOutDir(), "outFile");
     }
 //    @Test
 //    public void testSplitAndRandomForRandom(){

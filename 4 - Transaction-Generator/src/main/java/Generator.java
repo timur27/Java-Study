@@ -6,11 +6,9 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
+class GeneratorHelper{
+    public static CommandLine commandLineExecutor(String[] args){
 
-public class Generator {
-    private static ObjectMapper mapper = new ObjectMapper();
-
-    public static void main(String[] args) throws IOException, ParseException {
         Options options = OptionsGenerator.fillOptoins(new Options());      //wypelniam opcje parametrami
 
         CommandLineParser parser = new BasicParser();
@@ -21,19 +19,27 @@ public class Generator {
         }
         catch (ParseException pe){
             System.out.println("Unfortunately, arguments are not right");
-            return;
+            return null;
         }
+        return cmd;
+    }
+}
+
+public class Generator {
+
+    public static void main(String[] args) throws IOException{
+
+        CommandLine cmd = GeneratorHelper.commandLineExecutor(args);
+        if (cmd == null) return;
 
         Transaction transaction = new Transaction();
         transaction = OptionsGenerator.fillTransaction(transaction, cmd);
         if (transaction == null)
             return;
-
         Random random = new Random();
         int eventCount = Integer.valueOf(transaction.getEventsCount());
         File file = new File(transaction.getOutDir() + "user.json");
         for (int i = 0; i < eventCount; i++){
-            System.out.println("PR");
             Parser.parse(transaction, i, file);
         }
         System.out.println(transaction);
