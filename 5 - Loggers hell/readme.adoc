@@ -1,0 +1,7 @@
+Loggers hell
+-----------
+
+Przed tym, jak bezpośrednio budować projekt, trzeba zbudować dwa projekty zewnętrzne z funkcją dodania do repozytorium lokalnego
+[source, java]
+gradle pushToMavenLocal
+
