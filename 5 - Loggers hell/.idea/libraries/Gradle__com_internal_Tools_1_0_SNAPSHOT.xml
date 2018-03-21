@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.internal:Tools:1.0-SNAPSHOT">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/Could not find com.internal:Tools:1.0-SNAPSHOT." />
+      <root url="jar://$MAVEN_REPOSITORY$/com/internal/Tools/1.0-SNAPSHOT/Tools-1.0-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
