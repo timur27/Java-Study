@@ -1,4 +1,5 @@
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -21,12 +22,12 @@ public class Transaction {
         LocalDate today = LocalDate.now(ZoneId.of("Europe/Warsaw"));
         LocalDateTime todayMidnight = LocalDateTime.of(today, midnight);
         LocalDateTime tommorowMidnight = todayMidnight.plusDays(1);
-//        dateRange = LocalDate.now().toString() + ":" + LocalDate.now().plus(1, ChronoUnit.DAYS);
         dateRange =  todayMidnight.toString() + ":" + tommorowMidnight.toString();
+        System.out.println(dateRange);
         itemsFile = null;
         itemsCount = "1:5";
-        itemsQuantity = "1:5";
+        itemsQuantity = "1:30";
         eventsCount = "100";
-        outDir = System.getProperty("user.dir");
+        outDir = "outFile";
     }
 }
