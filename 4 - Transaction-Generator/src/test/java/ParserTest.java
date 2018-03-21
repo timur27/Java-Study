@@ -6,6 +6,7 @@ import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.sql.Time;
 import java.time.Instant;
@@ -120,9 +121,22 @@ public class ParserTest {
 
         //then
         Assert.assertEquals(results[0], 1);
+        Assert.assertEquals(results[1], 5);
         Assert.assertEquals(savedObject.getCustomer_id(), 1);
+        Assert.assertEquals(savedObject.getTimeStamp(), resultTime);
     }
 
+    @Test
+    public void testParserOfValues(){
+        //given
+        int[] results;
+        Transaction transaction = new Transaction();
+        SavedObject savedObject = new SavedObject();
+
+        results = parser.parseValues(transaction, savedObject);
+        Assert.assertEquals(results[0], 1);
+        Assert.assertEquals(results[1], 5);
+    }
 //    @Test
 //    public void testSplitAndRandomForRandom(){
 //        Mockito.when(parser.randomDate()).thenReturn(LocalDateTime.of(2018, 05, 27, 13, 42));

@@ -71,11 +71,9 @@
       <file leaf-file-name="ParserTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="122" column="61" lean-forward="false" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="137" column="43" lean-forward="false" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -83,11 +81,9 @@
       <file leaf-file-name="Parser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-              <folding>
-                <element signature="e#3307#3313#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -340,7 +336,7 @@
     <option name="modificationStamps">
       <map>
         <entry key="$PROJECT_DIR$" value="4563685676057" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3402425725" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="807648813" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="566444372" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="2160276364" />
       </map>
@@ -524,7 +520,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ParametersTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FileNamesTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/DateRangeTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/OptionsGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/LocalDateTimeRangeRandomizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/AbstractRandomizer.java" />
         <option value="$PROJECT_DIR$/src/main/java/Generator.java" />
@@ -533,6 +528,8 @@
         <option value="$PROJECT_DIR$/src/test/java/TransactionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/Parser.java" />
+        <option value="$PROJECT_DIR$/src/main/java/OptionsGenerator.java" />
+        <option value="$PROJECT_DIR$/src/test/java/OptionsGeneratorTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ParserTest.java" />
       </list>
     </option>
@@ -564,37 +561,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="AndroidView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
               <item name="jacoco" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
               <item name="jacoco" type="462c0819:PsiDirectoryNode" />
@@ -602,7 +599,7 @@
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="reports" type="462c0819:PsiDirectoryNode" />
               <item name="jacoco" type="462c0819:PsiDirectoryNode" />
@@ -611,31 +608,31 @@
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
               <item name="abc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TransactionGenerator-master" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="4 - Transaction-Generator" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -644,7 +641,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -678,7 +675,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.TransactionGenerator-master [jacocoTestReport]">
+  <component name="RunManager" selected="Gradle.4 - Transaction-Generator [jacocoTestReport]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -699,7 +696,7 @@
       <module name="" />
       <envs />
     </configuration>
-    <configuration name="TransactionGenerator-master [jacocoTestCoverageVerification]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="4 - Transaction-Generator [jacocoTestCoverageVerification]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -717,7 +714,7 @@
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="TransactionGenerator-master [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="4 - Transaction-Generator [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -735,7 +732,7 @@
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="TransactionGenerator-master [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="4 - Transaction-Generator [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -753,14 +750,14 @@
       </ExternalSystemSettings>
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
-    <configuration name="ParserTest.testParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OptionsGeneratorTest.testOptionsGeneratorEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="abc_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ParserTest" />
-      <option name="METHOD_NAME" value="testParse" />
+      <option name="MAIN_CLASS_NAME" value="OptionsGeneratorTest" />
+      <option name="METHOD_NAME" value="testOptionsGeneratorEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -773,14 +770,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="ParserTest.testParseValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ParserTest.testParserOfValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="abc_test" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ParserTest" />
-      <option name="METHOD_NAME" value="testParseValues" />
+      <option name="METHOD_NAME" value="testParserOfValues" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -854,19 +851,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Gradle.TransactionGenerator-master [test]" />
-      <item index="1" class="java.lang.String" itemvalue="Gradle.TransactionGenerator-master [jacocoTestCoverageVerification]" />
-      <item index="2" class="java.lang.String" itemvalue="Gradle.TransactionGenerator-master [jacocoTestReport]" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ParserTest.testParse" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.ParserTest.testParseValues" />
+      <item index="0" class="java.lang.String" itemvalue="Gradle.4 - Transaction-Generator [test]" />
+      <item index="1" class="java.lang.String" itemvalue="Gradle.4 - Transaction-Generator [jacocoTestCoverageVerification]" />
+      <item index="2" class="java.lang.String" itemvalue="Gradle.4 - Transaction-Generator [jacocoTestReport]" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.OptionsGeneratorTest.testOptionsGeneratorEmpty" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.ParserTest.testParserOfValues" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.ParserTest.testParseValues" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.ParserTest.testParse" />
-        <item index="2" class="java.lang.String" itemvalue="Gradle.TransactionGenerator-master [jacocoTestReport]" />
-        <item index="3" class="java.lang.String" itemvalue="Gradle.TransactionGenerator-master [jacocoTestCoverageVerification]" />
-        <item index="4" class="java.lang.String" itemvalue="Gradle.TransactionGenerator-master [test]" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ParserTest.testParserOfValues" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.OptionsGeneratorTest.testOptionsGeneratorEmpty" />
+        <item index="2" class="java.lang.String" itemvalue="Gradle.4 - Transaction-Generator [jacocoTestReport]" />
+        <item index="3" class="java.lang.String" itemvalue="Gradle.4 - Transaction-Generator [jacocoTestCoverageVerification]" />
+        <item index="4" class="java.lang.String" itemvalue="Gradle.4 - Transaction-Generator [test]" />
       </list>
     </recent_temporary>
   </component>
@@ -903,46 +900,48 @@
       <workItem from="1521577474747" duration="1031000" />
       <workItem from="1521617561323" duration="7026000" />
       <workItem from="1521626299243" duration="884000" />
+      <workItem from="1521627340180" duration="2159000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ParserTest_testParseValues - 2018.03.21 at 11h 11m 29s.xml">
-      <configuration name="ParserTest.testParseValues" configurationId="JUnit" />
+    <history-entry file="4_-_Transaction-Generator_[test] - 2018.03.21 at 11h 34m 33s.xml">
+      <configuration name="4 - Transaction-Generator [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testRandomize - 2018.03.21 at 10h 04m 02s.xml">
-      <configuration name="ParserTest.testRandomize" configurationId="JUnit" />
+    <history-entry file="4_-_Transaction-Generator_[test] - 2018.03.21 at 11h 40m 17s.xml">
+      <configuration name="4 - Transaction-Generator [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testRandomize - 2018.03.21 at 10h 04m 18s.xml">
-      <configuration name="ParserTest.testRandomize" configurationId="JUnit" />
+    <history-entry file="4_-_Transaction-Generator_[test] - 2018.03.21 at 11h 43m 36s.xml">
+      <configuration name="4 - Transaction-Generator [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ParserTest_testRandomize - 2018.03.21 at 10h 04m 26s.xml">
-      <configuration name="ParserTest.testRandomize" configurationId="JUnit" />
+    <history-entry file="4_-_Transaction-Generator_[test] - 2018.03.21 at 11h 46m 22s.xml">
+      <configuration name="4 - Transaction-Generator [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TransactionGenerator-master_[test] - 2018.03.21 at 10h 04m 40s.xml">
-      <configuration name="TransactionGenerator-master [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="4_-_Transaction-Generator_[test] - 2018.03.21 at 11h 51m 06s.xml">
+      <configuration name="4 - Transaction-Generator [test]" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="TransactionGenerator-master_[test] - 2018.03.21 at 10h 25m 48s.xml">
-      <configuration name="TransactionGenerator-master [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="OptionsGeneratorTest_testNoItemsFileArg - 2018.03.21 at 11h 42m 54s.xml">
+      <configuration name="OptionsGeneratorTest.testNoItemsFileArg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionGenerator-master_[test] - 2018.03.21 at 11h 00m 37s.xml">
-      <configuration name="TransactionGenerator-master [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="OptionsGeneratorTest_testNoItemsFileArg - 2018.03.21 at 11h 43m 31s.xml">
+      <configuration name="OptionsGeneratorTest.testNoItemsFileArg" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionGenerator-master_[test] - 2018.03.21 at 11h 00m 53s.xml">
-      <configuration name="TransactionGenerator-master [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="OptionsGeneratorTest_testOptionsGeneratorEmpty - 2018.03.21 at 11h 46m 16s.xml">
+      <configuration name="OptionsGeneratorTest.testOptionsGeneratorEmpty" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionGenerator-master_[test] - 2018.03.21 at 11h 05m 14s.xml">
-      <configuration name="TransactionGenerator-master [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="OptionsGeneratorTest_testTransactionFill - 2018.03.21 at 11h 40m 11s.xml">
+      <configuration name="OptionsGeneratorTest.testTransactionFill" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TransactionGenerator-master_[test] - 2018.03.21 at 11h 11m 34s.xml">
-      <configuration name="TransactionGenerator-master [test]" configurationId="GradleRunConfiguration" />
+    <history-entry file="ParserTest_testParserOfValues - 2018.03.21 at 11h 51m 01s.xml">
+      <configuration name="ParserTest.testParserOfValues" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44030000" />
+    <option name="totallyTimeSpent" value="46189000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -952,14 +951,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31813" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22576967" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19280344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19548872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20676692" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18743287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -988,14 +987,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -1172,13 +1163,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/items/items.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="12" lean-forward="false" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/items/items.csv" />
     <entry file="file://$PROJECT_DIR$/build/libsuser.json" />
     <entry file="file://$PROJECT_DIR$/src/test/java/ParametersTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1224,29 +1209,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Generator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/OptionsGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lombok.config" />
-    <entry file="file://$PROJECT_DIR$/lombok.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" lean-forward="false" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/lombok.config" />
     <entry file="file://$PROJECT_DIR$/build/libs/outFileuser.json" />
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
@@ -1255,23 +1219,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="31" column="40" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/items.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/items.csv" />
     <entry file="file://$PROJECT_DIR$/src/main/java/SavedObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1288,13 +1236,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Generator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/OptionsGeneratorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="86" column="72" lean-forward="false" selection-start-line="86" selection-start-column="72" selection-end-line="86" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/OptionsGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="74" column="22" lean-forward="false" selection-start-line="74" selection-start-column="22" selection-end-line="74" selection-end-column="22" />
-          <folding>
-            <element signature="e#3307#3313#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="75" column="21" lean-forward="false" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1308,11 +1288,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="122" column="61" lean-forward="false" selection-start-line="122" selection-start-column="61" selection-end-line="122" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="414">
+          <caret line="137" column="43" lean-forward="false" selection-start-line="137" selection-start-column="43" selection-end-line="137" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

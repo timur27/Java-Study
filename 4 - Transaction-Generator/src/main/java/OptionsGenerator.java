@@ -1,7 +1,12 @@
+import lombok.Data;
 import org.apache.commons.cli.CommandLine;
 import org.apache.commons.cli.Options;
 
+
+@Data
 public class OptionsGenerator {
+    public final static String value = "testValue";
+
     public static Options fillOptoins(Options options){
         options.addOption("customerIds", "customerIds", true, "Zakres wartosci do pola ID");
         options.addOption("dateRange", "dateRange", true, "Zakres czasowy");

@@ -68,9 +68,6 @@ public class Parser {
 
 
 
-
-
-
     public static int[] parseValues(Transaction transaction, SavedObject savedObject){
         int[] results;
         results = splitString(transaction.getCustomerID());     //dla customerID
