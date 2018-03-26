@@ -1,38 +1,38 @@
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+import lombok.extern.slf4j.Slf4j;
 import org.codehaus.jackson.map.ObjectMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.net.Inet4Address;
 import java.nio.file.Files;
 import java.nio.file.StandardOpenOption;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
+
 public class Parser {
-    private final static Logger logger = LogManager.getLogger("Parser");
+
+    private static final Logger log = LoggerFactory.getLogger("sda");
+    //    private final static Logger logger = LogManager.getLogger("Parser");
     private static LocalDateTime aTime;
     private static LocalDateTime bTime;
 
     public static int[] splitString(String word){
-        logger.info("Begin splitting");
+        log.info("Begin splitting");
         String [] result = word.split(":");
         int[] res = new int[2];
         res[0] = Integer.valueOf(result[0]);
         res[1] = Integer.valueOf(result[1]);
-        logger.info("Splitting ends");
+        log.info("Splitting ends");
         return res;
     }
 
     public static LocalDateTime randomDate(){
-        logger.info("Begin with finding random date");
+        log.info("Begin with finding random date");
         long days = aTime.until(bTime, ChronoUnit.DAYS);
         long randomDays = ThreadLocalRandom.current().nextLong(days + 1);
         LocalDateTime randomDate = aTime.plusDays(randomDays);
@@ -40,7 +40,7 @@ public class Parser {
     }
 
     public static LocalDateTime[] formatDate(String a, String b){
-        logger.info("Date formatting...");
+        log.info("Date formatting...");
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
         aTime = LocalDateTime.parse(a, formatter);
         bTime = LocalDateTime.parse(b, formatter);
@@ -49,7 +49,7 @@ public class Parser {
     }
 
     public static String[] splitDate(String dateRange){
-        logger.info("Date splitting...");
+        log.info("Date splitting...");
         String a = dateRange.substring(0, dateRange.length()/2);
         String b = dateRange.substring(dateRange.length()/2+1, dateRange.length());
         String[] ab = {a,b};
@@ -67,7 +67,7 @@ public class Parser {
     }
 
     public static int randomize(int a, int b){
-        logger.info("Randomizer working...");
+        log.info("Randomizer working...");
         Random random = new Random();
         int result = random.nextInt((b-a) + a);
 
@@ -78,7 +78,7 @@ public class Parser {
 
     public static int[] parseValues(Transaction transaction, SavedObject savedObject){
         int[] results;
-        logger.info("Now string would be splitted");
+        log.info("Now string would be splitted");
         results = splitString(transaction.getCustomerID());     //dla customerID
         savedObject.setCustomer_id(ThreadLocalRandom.current().nextInt(results[0], results[1] + 1));
 
@@ -93,11 +93,11 @@ public class Parser {
 
     public static void parse(Transaction transaction, int id, File file) throws IOException {
         SavedObject savedObject = new SavedObject();
-        logger.info("All values would be parsed");
+        log.info("All values would be parsed");
         int[] results = parseValues(transaction, savedObject);
         int itemsNumber = randomize(results[0], results[1]);        //itemsNumber nie dodaje się do SavedObject
         results = splitString(transaction.getItemsQuantity());      // dla itemsQuantity później
-        logger.info("Looking for a file");
+        log.info("Looking for a file");
         Scanner input = new Scanner(new File(transaction.getItemsFile()));
         List<Item> itemList = new ArrayList<Item>();
         while (input.hasNextLine() && itemsNumber >= 0){
@@ -111,25 +111,26 @@ public class Parser {
             item.setPrice(Double.parseDouble(splitter[1]));
             itemList.add(item);
             itemsNumber--;
-            logger.info("Line successfully added to items");
+            log.info("Line successfully added to items");
         }
 
-        logger.info("Filling out object to save");
+        log.info("Filling out object to save");
         savedObject.setId(id);
         savedObject.setItems(itemList);
 
         double priceForItems = 0;
         for (Item i : itemList){
-            logger.info("Summarizing price...");
+            log.info("Summarizing price...");
             priceForItems += i.getPrice() * i.getQuantity();
         }
 
         savedObject.setSum(priceForItems);
-        logger.info("Begin with mapping to json");
+        log.info("Begin with mapping to json");
         ObjectMapper mapper = new ObjectMapper();
+
         String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObject);
 //        mapper.writerWithDefaultPrettyPrinter().writeValue(file, savedObject);
         Files.write(file.toPath(), Arrays.asList(json), StandardOpenOption.APPEND);
-        logger.info("Successfully done!");
+        log.info("Successfully done!");
     }
 }

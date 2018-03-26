@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>OptionsGenerator.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">abc</a> &gt; <a href="index.source.html" class="el_package">default</a> &gt; <span class="el_source">OptionsGenerator.java</span></div><h1>OptionsGenerator.java</h1><pre class="source lang-java linenums">import lombok.Data;
+import org.apache.commons.cli.CommandLine;
+import org.apache.commons.cli.Options;
+
+
+@Data
+public class OptionsGenerator {
+    public final static String value = &quot;testValue&quot;;
+
+    public static Options fillOptoins(Options options){
+<span class="fc" id="L11">        options.addOption(&quot;customerIds&quot;, &quot;customerIds&quot;, true, &quot;Zakres wartosci do pola ID&quot;);</span>
+<span class="fc" id="L12">        options.addOption(&quot;dateRange&quot;, &quot;dateRange&quot;, true, &quot;Zakres czasowy&quot;);</span>
+<span class="fc" id="L13">        options.addOption(&quot;itemsFile&quot;, &quot;itemsFile&quot;, true, &quot;Plik ze spisem produktÃ³w&quot;);</span>
+<span class="fc" id="L14">        options.addOption(&quot;itemsCount&quot;, &quot;itemsCount&quot;, true, &quot;Zakres ilosci generowanych elementÃ³w&quot;);</span>
+<span class="fc" id="L15">        options.addOption(&quot;itemsQuantity&quot;, &quot;itemsQuantity&quot;, true, &quot;Zakres&quot;);</span>
+<span class="fc" id="L16">        options.addOption(&quot;eventsCount&quot;, &quot;eventsCount&quot;, true, &quot;IloÅ›Ä‡ transakcji&quot;);</span>
+<span class="fc" id="L17">        options.addOption(&quot;outDir&quot;, &quot;outDir&quot;, true, &quot;Katalog do przechowania pliku&quot;);</span>
+
+<span class="fc" id="L19">        return options;</span>
+    }
+
+    public static Transaction fillTransaction(Transaction transaction, CommandLine cmd){
+<span class="fc bfc" id="L23" title="All 2 branches covered.">        if (cmd.hasOption(&quot;customerIds&quot;))</span>
+<span class="fc" id="L24">            transaction.setCustomerID(cmd.getOptionValue(&quot;customerIds&quot;));</span>
+<span class="fc bfc" id="L25" title="All 2 branches covered.">        if (cmd.hasOption(&quot;dateRange&quot;))</span>
+<span class="fc" id="L26">            transaction.setDateRange(cmd.getOptionValue(&quot;dateRange&quot;));</span>
+<span class="fc bfc" id="L27" title="All 2 branches covered.">        if (cmd.hasOption(&quot;itemsFile&quot;))</span>
+<span class="fc" id="L28">            transaction.setItemsFile(cmd.getOptionValue(&quot;itemsFile&quot;));</span>
+        else {
+<span class="fc" id="L30">            System.out.println(&quot;You haven't passed itemsFile arg&quot;);</span>
+<span class="fc" id="L31">            return null;</span>
+        }
+<span class="fc bfc" id="L33" title="All 2 branches covered.">        if (cmd.hasOption(&quot;itemsCount&quot;))</span>
+<span class="fc" id="L34">            transaction.setItemsCount(cmd.getOptionValue(&quot;itemsCount&quot;));</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">        if (cmd.hasOption(&quot;itemsQuantity&quot;))</span>
+<span class="fc" id="L36">            transaction.setItemsQuantity(cmd.getOptionValue(&quot;itemsQuantity&quot;));</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">        if (cmd.hasOption(&quot;eventsCount&quot;))</span>
+<span class="fc" id="L38">            transaction.setEventsCount(cmd.getOptionValue(&quot;eventsCount&quot;));</span>
+<span class="fc bfc" id="L39" title="All 2 branches covered.">        if (cmd.hasOption(&quot;outDir&quot;))</span>
+<span class="fc" id="L40">            transaction.setOutDir(cmd.getOptionValue(&quot;outDir&quot;));</span>
+<span class="fc" id="L41">        return transaction;</span>
+    }
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

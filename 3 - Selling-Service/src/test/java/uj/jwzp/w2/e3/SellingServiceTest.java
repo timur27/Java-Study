@@ -152,4 +152,14 @@ public class SellingServiceTest {
         Assert.assertTrue(sold);
         Assert.assertEquals(BigDecimal.valueOf(14), uut.moneyService.getMoney(customer));
     }
+
+//    @Test
+//    public void testDiscountConfigWrapper(){
+//        //given
+//        DiscountConfigWrapper uut = DiscountConfigWrapper.getWrapper();
+//
+//        //then
+//        Assert.assert;
+//
+//    }
 }

@@ -7,24 +7,32 @@
     "minute" : 0,
     "nano" : 0,
     "second" : 0,
-    "dayOfWeek" : "THURSDAY",
-    "dayOfMonth" : 22,
-    "dayOfYear" : 81,
+    "dayOfWeek" : "MONDAY",
+    "dayOfMonth" : 26,
+    "dayOfYear" : 85,
     "monthValue" : 3,
     "chronology" : {
       "id" : "ISO",
       "calendarType" : "iso8601"
     }
   },
-  "customer_id" : 9,
+  "customer_id" : 16,
   "items" : [ {
     "name" : "\"mleko 3% 1l\"",
-    "quantity" : 22,
+    "quantity" : 25,
     "price" : 2.3
   }, {
     "name" : "\"buÅ‚eczka\"",
-    "quantity" : 22,
+    "quantity" : 10,
     "price" : 1.2
+  }, {
+    "name" : "\"chleb biaÅ‚y\"",
+    "quantity" : 9,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 1,
+    "price" : 2.5
   } ],
-  "sum" : 77.0
+  "sum" : 91.8
 }
