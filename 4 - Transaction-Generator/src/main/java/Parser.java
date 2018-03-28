@@ -4,15 +4,14 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.net.Inet4Address;
+import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
-import java.util.Scanner;
+import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Parser {
@@ -115,6 +114,7 @@ public class Parser {
 
         savedObject.setSum(priceForItems);
         ObjectMapper mapper = new ObjectMapper();
-        mapper.writerWithDefaultPrettyPrinter().writeValue(file, savedObject);
-    }
+        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObject);
+        Files.write(file.toPath(), Arrays.asList(json), StandardOpenOption.APPEND);
+  }
 }

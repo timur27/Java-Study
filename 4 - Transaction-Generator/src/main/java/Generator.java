@@ -39,6 +39,7 @@ public class Generator {
         Random random = new Random();
         int eventCount = Integer.valueOf(transaction.getEventsCount());
         File file = new File(transaction.getOutDir() + "user.json");
+        file.createNewFile();
         for (int i = 0; i < eventCount; i++){
             Parser.parse(transaction, i, file);
         }
