@@ -1,4 +1,0 @@
-2018-03-26 16:07:22.331 [main] INFO  com.external.PaymentsService - Begging payment transaction from 23 to 8
-2018-03-26 16:07:22.332 [main] INFO  com.external.PaymentsService - Will transfer 1 dollars
-2018-03-26 16:07:27.334 [main] DEBUG com.external.PaymentsService - Transaction for customer 23 in progress
-2018-03-26 16:07:27.334 [main] INFO  com.external.PaymentsService - Transaction for customer23 finished successfully
