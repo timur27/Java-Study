@@ -23,7 +23,6 @@ public class Transaction {
         LocalDateTime todayMidnight = LocalDateTime.of(today, midnight);
         LocalDateTime tommorowMidnight = todayMidnight.plusDays(1);
         dateRange =  todayMidnight.toString() + ":" + tommorowMidnight.toString();
-        System.out.println(dateRange);
         itemsFile = null;
         itemsCount = "1:5";
         itemsQuantity = "1:30";

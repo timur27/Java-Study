@@ -94,11 +94,9 @@ public class Parser {
             Item item = new Item();
             String []splitter = line.split(",");
             if (splitter[0].equals("name")) continue;
-            System.out.println("TUT TIMA: " + line);
             item.setName(splitter[0]);
             int q = randomize(results[0], results[1]);
             item.setQuantity(q);
-            System.out.println(splitter[0] + " " + splitter[1] + " " + "ASDSADHWQ");
             item.setPrice(Double.parseDouble(splitter[1]));
             itemList.add(item);
             itemsNumber--;
