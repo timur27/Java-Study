@@ -1,0 +1,14 @@
+Generator transakcji
+---------------------
+
+1) Trzeba zbudować projekt linią polecenia poleceniem gradle runFatJar. 
+2) Znajdujac się w folderze out/libs trzeba wpisac komendę z poleceniem oraz ew.parametrami: 
+
+[source, java]
+java -jar abc-all-1.0-SNAPSHOT.jar -customerIds 1:20 -dateRange "2018-03-08T00:00:2018-03-08T23:59" -itemsFile items.csv -itemsCount 5:15 -itemsQuantity 1:30 -eventsCount 1000 -outDir ./output
+
+
+3) Logi w plikach pojawią się w folderze ${DEV_HOME}, która jest na każdym urządzeniu inaczej skonfigurowana.
+
+
+https://github.com/timur27/Java-Study/blob/master/4%20-%20Transaction-Generator/jacocoScreen.png[Jacoco Screenshot]
