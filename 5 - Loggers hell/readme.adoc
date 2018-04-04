@@ -1,7 +1,9 @@
 Loggers hell
 -----------
 
-Przed tym, jak bezpośrednio budować projekt, trzeba zbudować dwa projekty zewnętrzne z funkcją dodania do repozytorium lokalnego
+* Przed tym, jak bezpośrednio budować projekt, trzeba zbudować dwa projekty zewnętrzne (znajdujące się w folderze src\main\java\external) z funkcją dodania do repozytorium lokalnego
+* Zbudować projekt poleceniem gradle build w golderze głównym
+
 [source, java]
 gradle publishToMavenLocal
 
