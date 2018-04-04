@@ -1,5 +1,6 @@
 package Generator;
 
+import Config.AppConfig;
 import Model.Transaction;
 import Reader.Parser;
 import org.slf4j.Logger;
@@ -28,7 +29,7 @@ public class Generator {
 
         int eventCount = Integer.valueOf(resultTransaction.getEventsCount());
 
-        File file = new File(resultTransaction.getOutDir() + "File.json");
+        File file = new File(resultTransaction.getOutDir() + ".json");
 
         file.createNewFile();
 
