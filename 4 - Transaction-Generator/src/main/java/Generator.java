@@ -1,9 +1,13 @@
 import org.apache.commons.cli.*;
-import org.codehaus.jackson.JsonProcessingException;
 import org.codehaus.jackson.map.ObjectMapper;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.StandardOpenOption;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Random;
 
 class GeneratorHelper{
@@ -36,13 +40,25 @@ public class Generator {
         transaction = OptionsGenerator.fillTransaction(transaction, cmd);
         if (transaction == null)
             return;
+
         Random random = new Random();
         int eventCount = Integer.valueOf(transaction.getEventsCount());
-        File file = new File(transaction.getOutDir() + "user.json");
+        File file = new File(transaction.getOutDir() + ".json");
+        Files.deleteIfExists(file.toPath());
         file.createNewFile();
+        List<SavedObject> savedObjects = new ArrayList<SavedObject>();
+        SavedObject savedObject;
+
         for (int i = 0; i < eventCount; i++){
-            Parser.parse(transaction, i, file);
+            savedObject = Parser.parse(transaction, i, file);
+            savedObjects.add(savedObject);
         }
+
+
+        ObjectMapper mapper = new ObjectMapper();
+        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObjects);
+        Files.write(file.toPath(), Arrays.asList(json), StandardOpenOption.APPEND);
+
         System.out.println(transaction);
     }
 }

@@ -1,8 +1,9 @@
 Generator transakcji
 ---------------------
 
-1) Trzeba zbudować projekt linią polecenia poleceniem gradle runFatJar. 
-2) Znajdujac się w folderze out/libs trzeba wpisac komendę z poleceniem oraz ew.parametrami
+* Trzeba zbudować projekt linią polecenia poleceniem gradle runFatJar.
+* Znajdujac się w folderze build/libs trzeba wpisac komendę z poleceniem oraz ew.parametrami
+* Po wykonaniu programu w folderze build/libs pojawi się plik outFile.json z potrzebną nam zawartością
 
 UWAGA!!!
 -------

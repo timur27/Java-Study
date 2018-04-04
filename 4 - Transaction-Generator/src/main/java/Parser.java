@@ -81,7 +81,7 @@ public class Parser {
     }
 
 
-    public static void parse(Transaction transaction, int id, File file) throws IOException {
+    public static SavedObject parse(Transaction transaction, int id, File file) throws IOException {
         SavedObject savedObject = new SavedObject();
 
         int[] results = parseValues(transaction, savedObject);
@@ -111,8 +111,7 @@ public class Parser {
         }
 
         savedObject.setSum(priceForItems);
-        ObjectMapper mapper = new ObjectMapper();
-        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObject);
-        Files.write(file.toPath(), Arrays.asList(json), StandardOpenOption.APPEND);
-  }
+
+        return savedObject;
+    }
 }
