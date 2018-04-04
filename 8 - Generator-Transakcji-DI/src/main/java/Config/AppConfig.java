@@ -4,6 +4,7 @@ import Generator.OptionsFiller;
 import Generator.OptionsGenerator;
 import Generator.TransactionGenerator;
 import Reader.Parser;
+import Writer.XMLWriter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -32,6 +33,12 @@ public class AppConfig {
     public OptionsGenerator optionsGenerator(){
         OptionsGenerator optionsGenerator = new OptionsGenerator();
         return optionsGenerator;
+    }
+
+    @Bean(name = "XMLWriter")
+    public XMLWriter xmlWriter(){
+        XMLWriter xmlWriter = new XMLWriter();
+        return xmlWriter;
     }
 
 }

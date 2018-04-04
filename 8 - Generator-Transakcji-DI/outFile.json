@@ -1,0 +1,2400 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>20</customer_id>
+    <id>0</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>18</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>19</quantity>
+    </items>
+    <sum>111.69999999999999</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>12</customer_id>
+    <id>1</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>18</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>22</quantity>
+    </items>
+    <sum>110.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>13</customer_id>
+    <id>2</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>18</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>2</quantity>
+    </items>
+    <sum>43.8</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>13</customer_id>
+    <id>3</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>22</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>25</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>2</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>22</quantity>
+    </items>
+    <sum>237.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>20</customer_id>
+    <id>4</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>5</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>9</quantity>
+    </items>
+    <sum>22.299999999999997</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>18</customer_id>
+    <id>5</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>2</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>23</quantity>
+    </items>
+    <sum>32.199999999999996</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>6</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>6</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>11</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>15</quantity>
+    </items>
+    <sum>100.7</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>9</customer_id>
+    <id>7</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>26</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>7</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>5</quantity>
+    </items>
+    <sum>191.9</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>7</customer_id>
+    <id>8</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>4</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>5</quantity>
+    </items>
+    <sum>15.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>7</customer_id>
+    <id>9</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>21</quantity>
+    </items>
+    <sum>48.3</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>19</customer_id>
+    <id>10</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>13</quantity>
+    </items>
+    <sum>77.6</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>14</customer_id>
+    <id>11</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>2</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>0</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>10</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>26</quantity>
+    </items>
+    <sum>180.0</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>8</customer_id>
+    <id>12</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>15</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>12</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>16</quantity>
+    </items>
+    <sum>84.1</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>13</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>27</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>1</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>7</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>8</quantity>
+    </items>
+    <sum>151.6</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>18</customer_id>
+    <id>14</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>22</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>29</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>4</quantity>
+    </items>
+    <sum>137.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>15</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>16</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>28</quantity>
+    </items>
+    <sum>70.4</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>13</customer_id>
+    <id>16</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>4</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>4</quantity>
+    </items>
+    <sum>38.4</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>13</customer_id>
+    <id>17</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>9</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>26</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>5</quantity>
+    </items>
+    <sum>151.1</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>18</customer_id>
+    <id>18</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>7</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>26</quantity>
+    </items>
+    <sum>47.3</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>14</customer_id>
+    <id>19</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>15</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>2</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>7</quantity>
+    </items>
+    <sum>52.3</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>3</customer_id>
+    <id>20</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>12</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>7</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>20</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>14</quantity>
+    </items>
+    <sum>202.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>2</customer_id>
+    <id>21</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>24</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>1</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>16</quantity>
+    </items>
+    <sum>114.0</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>7</customer_id>
+    <id>22</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>18</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>10</quantity>
+    </items>
+    <sum>86.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>15</customer_id>
+    <id>23</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>15</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>0</quantity>
+    </items>
+    <sum>34.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>1</customer_id>
+    <id>24</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>27</quantity>
+    </items>
+    <sum>64.6</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>7</customer_id>
+    <id>25</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>27</quantity>
+    </items>
+    <sum>62.099999999999994</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>17</customer_id>
+    <id>26</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>12</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>11</quantity>
+    </items>
+    <sum>40.8</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>1</customer_id>
+    <id>27</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>16</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>18</quantity>
+    </items>
+    <sum>99.19999999999999</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>7</customer_id>
+    <id>28</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>7</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>26</quantity>
+    </items>
+    <sum>97.8</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>8</customer_id>
+    <id>29</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>12</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>21</quantity>
+    </items>
+    <sum>138.39999999999998</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>10</customer_id>
+    <id>30</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>22</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>6</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>10</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>27</quantity>
+    </items>
+    <sum>262.3</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>16</customer_id>
+    <id>31</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>25</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>20</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>4</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>1</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>9</quantity>
+    </items>
+    <sum>137.8</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>12</customer_id>
+    <id>32</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>0</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>6</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>20</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>21</quantity>
+    </items>
+    <sum>188.6</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>13</customer_id>
+    <id>33</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>23</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>27</quantity>
+    </items>
+    <sum>132.7</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>34</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>1</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>2</quantity>
+    </items>
+    <sum>4.699999999999999</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>14</customer_id>
+    <id>35</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>5</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>4</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>28</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>26</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>6</quantity>
+    </items>
+    <sum>172.9</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>16</customer_id>
+    <id>36</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>17</quantity>
+    </items>
+    <sum>39.099999999999994</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>10</customer_id>
+    <id>37</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>1</quantity>
+    </items>
+    <sum>2.3</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>12</customer_id>
+    <id>38</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>10</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>26</quantity>
+    </items>
+    <sum>54.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>3</customer_id>
+    <id>39</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>11</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>9</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>25</quantity>
+    </items>
+    <sum>91.1</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>14</customer_id>
+    <id>40</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>29</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>7</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>16</quantity>
+    </items>
+    <sum>131.7</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>41</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>0</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>4</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>17</quantity>
+    </items>
+    <sum>42.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>14</customer_id>
+    <id>42</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>18</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>24</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>13</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>27</quantity>
+    </items>
+    <sum>290.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>18</customer_id>
+    <id>43</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>3</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>1</quantity>
+    </items>
+    <sum>8.1</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>16</customer_id>
+    <id>44</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>3</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>6</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>11</quantity>
+    </items>
+    <sum>137.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>19</customer_id>
+    <id>45</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>4</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>22</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>10</quantity>
+    </items>
+    <sum>57.599999999999994</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>1</customer_id>
+    <id>46</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>12</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>7</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>20</quantity>
+    </items>
+    <sum>127.80000000000001</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>47</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>23</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>27</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>28</quantity>
+    </items>
+    <sum>146.9</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>15</customer_id>
+    <id>48</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>3</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>0</quantity>
+    </items>
+    <sum>68.4</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>2</customer_id>
+    <id>49</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>22</quantity>
+    </items>
+    <sum>50.599999999999994</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>50</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>10</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>4</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>26</quantity>
+    </items>
+    <sum>129.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>5</customer_id>
+    <id>51</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>11</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>10</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>18</quantity>
+    </items>
+    <sum>76.9</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>15</customer_id>
+    <id>52</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>1</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>19</quantity>
+    </items>
+    <sum>64.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>5</customer_id>
+    <id>53</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>9</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>16</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>15</quantity>
+    </items>
+    <sum>72.9</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>10</customer_id>
+    <id>54</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>23</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>28</quantity>
+    </items>
+    <sum>185.7</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>16</customer_id>
+    <id>55</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>4</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>18</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>27</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>24</quantity>
+    </items>
+    <sum>257.7</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>19</customer_id>
+    <id>56</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>10</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>20</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>15</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>16</quantity>
+    </items>
+    <sum>120.0</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>9</customer_id>
+    <id>57</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>12</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>0</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>15</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>26</quantity>
+    </items>
+    <sum>238.1</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>8</customer_id>
+    <id>58</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>19</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>11</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>23</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>3</quantity>
+    </items>
+    <sum>166.8</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>59</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>20</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>13</quantity>
+    </items>
+    <sum>71.0</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>14</customer_id>
+    <id>60</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>11</quantity>
+    </items>
+    <sum>25.299999999999997</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>15</customer_id>
+    <id>61</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>23</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>18</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>10</quantity>
+    </items>
+    <sum>96.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>17</customer_id>
+    <id>62</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>15</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>20</quantity>
+    </items>
+    <sum>80.4</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>7</customer_id>
+    <id>63</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>23</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>6</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>12</quantity>
+    </items>
+    <sum>184.1</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>3</customer_id>
+    <id>64</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>22</quantity>
+    </items>
+    <sum>50.599999999999994</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>10</customer_id>
+    <id>65</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>6</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>13</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>5</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>24</quantity>
+    </items>
+    <sum>100.4</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>2</customer_id>
+    <id>66</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>10</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>10</quantity>
+    </items>
+    <sum>35.0</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>8</customer_id>
+    <id>67</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>16</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>22</quantity>
+    </items>
+    <sum>63.199999999999996</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>14</customer_id>
+    <id>68</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>0</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>16</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>9</quantity>
+    </items>
+    <sum>39.0</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>14</customer_id>
+    <id>69</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>29</quantity>
+    </items>
+    <sum>66.69999999999999</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>2</customer_id>
+    <id>70</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>20</quantity>
+    </items>
+    <sum>46.0</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>71</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>25</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>13</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>25</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>29</quantity>
+    </items>
+    <sum>305.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>7</customer_id>
+    <id>72</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>6</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>5</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>11</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>25</quantity>
+    </items>
+    <sum>106.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>73</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>6</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>18</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>26</quantity>
+    </items>
+    <sum>92.6</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>15</customer_id>
+    <id>74</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>11</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>6</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>15</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>22</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>23</quantity>
+    </items>
+    <sum>235.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>2</customer_id>
+    <id>75</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>28</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>6</quantity>
+    </items>
+    <sum>71.6</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>1</customer_id>
+    <id>76</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>0</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>0</quantity>
+    </items>
+    <sum>55.800000000000004</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>13</customer_id>
+    <id>77</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>9</quantity>
+    </items>
+    <sum>20.7</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>3</customer_id>
+    <id>78</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>3</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>26</quantity>
+    </items>
+    <sum>99.9</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>19</customer_id>
+    <id>79</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>24</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>23</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>15</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>24</quantity>
+    </items>
+    <sum>175.8</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>12</customer_id>
+    <id>80</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>22</quantity>
+    </items>
+    <sum>58.599999999999994</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>1</customer_id>
+    <id>81</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>3</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>22</quantity>
+    </items>
+    <sum>33.3</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>19</customer_id>
+    <id>82</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>9</quantity>
+    </items>
+    <sum>20.7</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>17</customer_id>
+    <id>83</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>16</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>11</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>4</quantity>
+    </items>
+    <sum>58.8</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>17</customer_id>
+    <id>84</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>11</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>8</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>24</quantity>
+    </items>
+    <sum>141.1</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>3</customer_id>
+    <id>85</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>27</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>10</quantity>
+    </items>
+    <sum>86.6</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>20</customer_id>
+    <id>86</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>23</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>14</quantity>
+    </items>
+    <sum>106.69999999999999</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>10</customer_id>
+    <id>87</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>24</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>10</quantity>
+    </items>
+    <sum>67.19999999999999</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>88</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>16</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>16</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>20</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>7</quantity>
+    </items>
+    <sum>117.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>19</customer_id>
+    <id>89</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>20</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>8</quantity>
+    </items>
+    <sum>55.6</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>90</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>26</quantity>
+    </items>
+    <sum>59.8</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>2</customer_id>
+    <id>91</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>4</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>10</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>3</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>27</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>5</quantity>
+    </items>
+    <sum>120.3</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>14</customer_id>
+    <id>92</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>23</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>12</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>27</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>27</quantity>
+    </items>
+    <sum>307.2</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>16</customer_id>
+    <id>93</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>3</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>13</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>12</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>22</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>10</quantity>
+    </items>
+    <sum>153.9</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>20</customer_id>
+    <id>94</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>14</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>11</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>21</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>4</quantity>
+    </items>
+    <sum>101.6</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>4</customer_id>
+    <id>95</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>28</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>15</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>22</quantity>
+    </items>
+    <items>
+        <name>"masło"</name>
+        <price>5.0</price>
+        <quantity>18</quantity>
+    </items>
+    <sum>250.7</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>96</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>9</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>17</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>12</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>12</quantity>
+    </items>
+    <sum>97.5</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>10</customer_id>
+    <id>97</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>26</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>27</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>18</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>28</quantity>
+    </items>
+    <sum>201.79999999999998</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>15</customer_id>
+    <id>98</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>26</quantity>
+    </items>
+    <items>
+        <name>"bułeczka"</name>
+        <price>1.2</price>
+        <quantity>7</quantity>
+    </items>
+    <items>
+        <name>"chleb biały"</name>
+        <price>2.2</price>
+        <quantity>27</quantity>
+    </items>
+    <items>
+        <name>"chleb ciemny"</name>
+        <price>2.5</price>
+        <quantity>25</quantity>
+    </items>
+    <sum>190.10000000000002</sum>
+    <timeStamp/>
+</savedObject>
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedObject>
+    <customer_id>11</customer_id>
+    <id>99</id>
+    <items>
+        <name>"mleko 3% 1l"</name>
+        <price>2.3</price>
+        <quantity>23</quantity>
+    </items>
+    <sum>52.9</sum>
+    <timeStamp/>
+</savedObject>
+

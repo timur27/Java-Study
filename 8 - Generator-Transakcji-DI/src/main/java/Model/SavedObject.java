@@ -2,11 +2,13 @@ package Model;
 
 import lombok.Data;
 
+import javax.xml.bind.annotation.XmlRootElement;
 import java.time.LocalDateTime;
 import java.util.List;
 
 
 @Data
+@XmlRootElement
 public class SavedObject {
     private int id;
     private LocalDateTime timeStamp;

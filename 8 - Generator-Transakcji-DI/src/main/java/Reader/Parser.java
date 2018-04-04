@@ -1,11 +1,14 @@
 package Reader;
 
+import Config.AppConfig;
 import Model.Item;
 import Model.SavedObject;
 import Model.Transaction;
+import Writer.XMLWriter;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.stereotype.Service;
 
 import java.io.File;
@@ -22,7 +25,6 @@ import java.util.concurrent.ThreadLocalRandom;
 
 @Service
 public class Parser {
-
     private static final Logger log = LoggerFactory.getLogger("sda");
     //    private final static Logger logger = LogManager.getLogger("Reader.Parser");
     private static LocalDateTime aTime;
@@ -81,8 +83,6 @@ public class Parser {
         return result;
     }
 
-
-
     public int[] parseValues(Transaction transaction, SavedObject savedObject){
         int[] results;
         log.info("Now string would be splitted");
@@ -98,8 +98,10 @@ public class Parser {
     }
 
 
-    public void parse(Transaction transaction, int id, File file) throws IOException {
+    public SavedObject parse(Transaction transaction, int id, File file) throws IOException {
         SavedObject savedObject = new SavedObject();
+
+
         log.info("All values would be parsed");
         int[] results = parseValues(transaction, savedObject);
         int itemsNumber = randomize(results[0], results[1]);        //itemsNumber nie dodaje się do Model.SavedObject
@@ -132,12 +134,9 @@ public class Parser {
         }
 
         savedObject.setSum(priceForItems);
-        log.info("Begin with mapping to json");
-        ObjectMapper mapper = new ObjectMapper();
 
-        String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObject);
-//        mapper.writerWithDefaultPrettyPrinter().writeValue(file, savedObject);
-        Files.write(file.toPath(), Arrays.asList(json), StandardOpenOption.APPEND);
-        log.info("Successfully done!");
+        log.info("Object to save is ready");
+
+        return savedObject;
     }
 }
