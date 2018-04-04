@@ -5,24 +5,17 @@ import Model.SavedObject;
 import Model.SavedObjectList;
 import Model.Transaction;
 import Reader.Parser;
+import Writer.JSONWriter;
 import Writer.XMLWriter;
-import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-
-import javax.xml.bind.annotation.XmlList;
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Files;
-import java.nio.file.StandardOpenOption;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+
 
 public class Generator {
     private static final Logger log = LoggerFactory.getLogger("sda");
-    private static List<SavedObject> savedObjects = new ArrayList<SavedObject>();
 
     public static void main(String[] args) throws IOException{
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
@@ -31,6 +24,7 @@ public class Generator {
 
         TransactionGenerator transactionGenerator = (TransactionGenerator) ctx.getBean("TransactionGenerator");
         XMLWriter xmlWriter = (XMLWriter) ctx.getBean("XMLWriter");
+        JSONWriter jsonWriter = (JSONWriter) ctx.getBean("JSONWriter");
         Parser parser = (Parser) ctx.getBean("Parser");
 
         log.info("Starting application");
@@ -50,19 +44,15 @@ public class Generator {
             log.info("Begin with mapping...");
             SavedObject objectToWrite = parser.parse(resultTransaction, i, file);
             savedObjectList.add(objectToWrite);
-            savedObjects.add(objectToWrite);
         }
         if (resultTransaction.getFormatOption().equals("xml")){
             log.info("Begin with mapping to xml");
             xmlWriter.writeToFile(savedObjectList,file);
+            log.info("Successfully done!");
         }
-
         else{
             log.info("Begin with mapping to json");
-            ObjectMapper mapper = new ObjectMapper();
-
-            String json = mapper.writerWithDefaultPrettyPrinter().writeValueAsString(savedObjects);
-            Files.write(file.toPath(), Arrays.asList(json), StandardOpenOption.APPEND);
+            jsonWriter.writeToFile(savedObjectList.getSavedObjects(), file);
             log.info("Successfully done!");
         }
 

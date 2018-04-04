@@ -7,7 +7,7 @@ import java.util.List;
 
 
 
-
+@Data
 public class SavedObjectList {
     private List<SavedObject> savedObjects;
 
