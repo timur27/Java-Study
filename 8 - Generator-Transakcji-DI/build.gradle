@@ -62,9 +62,8 @@ dependencies {
     compile 'ch.qos.logback:logback-core:1.2.3'
     compile 'org.slf4j:slf4j-api:1.7.25'
     compile 'org.springframework:spring-context:5.0.4.RELEASE'
-    // https://mvnrepository.com/artifact/xstream/xstream
     compile group: 'xstream', name: 'xstream', version: '1.2.2'
-
+    compile group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-yaml', version: '2.9.2'
 
 
     testCompile(

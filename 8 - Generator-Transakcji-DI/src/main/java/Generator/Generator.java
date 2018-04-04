@@ -7,12 +7,12 @@ import Model.Transaction;
 import Reader.Parser;
 import Writer.JSONWriter;
 import Writer.XMLWriter;
+import Writer.YAMLWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import java.io.File;
 import java.io.IOException;
-
 
 public class Generator {
     private static final Logger log = LoggerFactory.getLogger("sda");
@@ -25,6 +25,7 @@ public class Generator {
         TransactionGenerator transactionGenerator = (TransactionGenerator) ctx.getBean("TransactionGenerator");
         XMLWriter xmlWriter = (XMLWriter) ctx.getBean("XMLWriter");
         JSONWriter jsonWriter = (JSONWriter) ctx.getBean("JSONWriter");
+        YAMLWriter yamlWriter = (YAMLWriter) ctx.getBean("YAMLWriter");
         Parser parser = (Parser) ctx.getBean("Parser");
 
         log.info("Starting application");
@@ -34,9 +35,7 @@ public class Generator {
             return;
 
         int eventCount = Integer.valueOf(resultTransaction.getEventsCount());
-
         File file = new File(resultTransaction.getOutDir() + ".json");
-
         file.createNewFile();
 
         SavedObjectList savedObjectList = new SavedObjectList();
@@ -50,9 +49,14 @@ public class Generator {
             xmlWriter.writeToFile(savedObjectList,file);
             log.info("Successfully done!");
         }
-        else{
+        else if(resultTransaction.getFormatOption().equals("json")){
             log.info("Begin with mapping to json");
             jsonWriter.writeToFile(savedObjectList.getSavedObjects(), file);
+            log.info("Successfully done!");
+        }
+        else if (resultTransaction.getFormatOption().equals("yaml")){
+            log.info("Begin with mapping to YAML");
+            yamlWriter.writeToFile(savedObjectList.getSavedObjects(), file);
             log.info("Successfully done!");
         }
 

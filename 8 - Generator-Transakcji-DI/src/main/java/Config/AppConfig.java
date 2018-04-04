@@ -6,6 +6,7 @@ import Generator.TransactionGenerator;
 import Reader.Parser;
 import Writer.JSONWriter;
 import Writer.XMLWriter;
+import Writer.YAMLWriter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
@@ -46,6 +47,12 @@ public class AppConfig {
     public JSONWriter jsonWriter(){
         JSONWriter jsonWriter = new JSONWriter();
         return jsonWriter;
+    }
+
+    @Bean(name = "YAMLWriter")
+    public YAMLWriter yamlWriter(){
+        YAMLWriter yamlWriter = new YAMLWriter();
+        return yamlWriter;
     }
 
 }
