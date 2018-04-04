@@ -1,0 +1,4 @@
+Spring DI
+--------
+
+* Projekt można odpalić z klasy ManualMain oraz SpringMain albo po budowaniu go za pomocą polecenia gradle fatJar

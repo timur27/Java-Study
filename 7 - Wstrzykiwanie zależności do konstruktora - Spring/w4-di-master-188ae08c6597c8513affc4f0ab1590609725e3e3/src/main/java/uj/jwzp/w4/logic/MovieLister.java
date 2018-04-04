@@ -9,8 +9,8 @@ import uj.jwzp.w4.model.Movie;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Service
 @Lazy
+@Service
 @Component
 public class MovieLister {
     private MovieFinder finder;

@@ -23,12 +23,10 @@ dependencies {
 
 task fatJar(type: Jar) {
     manifest {
-        attributes 'Implementation-Title': 'Gradle Fat-Jar File',
-                'Implementation-Version': version,
-                'Main-Class': 'uj.jwzp.w4.launchers.SpringMain'
+        attributes 'Main-Class': 'uj.jwzp.w4.launchers.SpringMain'
     }
     version = null
-    baseName = 'di'
+    baseName = 'spring-di'
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar
 }
