@@ -10,4 +10,4 @@ java -jar abc-all-1.0-SNAPSHOT.jar -customerIds 1:20 -dateRange "2018-03-08T00:0
 3) Logi w plikach pojawią się w głównym folderze projektu.
 
 
-https://github.com/timur27/Java-Study/blob/master/4%20-%20Transaction-Generator.Generator.Generator.Generator/jacocoScreen.png[Jacoco Screenshot]
+https://github.com/timur27/Java-Study/blob/master/8%20-%20Generator-Transakcji-DI/jacocoScreen.png[Jacoco Screenshot]
