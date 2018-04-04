@@ -1,3 +1,5 @@
+import Model.Item;
+import Model.SavedObject;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -1,19 +1,16 @@
+import Model.SavedObject;
+import Model.Transaction;
+import Reader.Parser;
 import org.junit.Assert;
 import org.junit.Rule;
 import org.junit.Test;
 import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.sql.Time;
-import java.time.Instant;
 import java.time.LocalDateTime;
-import java.util.Date;
-import java.util.Scanner;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class ParserTest {
@@ -165,8 +162,8 @@ public class ParserTest {
 //        LocalDateTime randomedTime;
 //
 //        //when
-//        Mockito.when(Parser.randomDate());
-//        Parser.splitAndRandomDate(dateString);
+//        Mockito.when(Reader.Parser.randomDate());
+//        Reader.Parser.splitAndRandomDate(dateString);
 //    }
 
 }

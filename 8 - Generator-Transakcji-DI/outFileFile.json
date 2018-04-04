@@ -1,0 +1,3352 @@
+{
+  "id" : 0,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 2,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 10,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 12,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 20,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 8,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 7,
+    "price" : 5.0
+  } ],
+  "sum" : 136.4
+}
+{
+  "id" : 1,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 20,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 29,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 19,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 21,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 0,
+    "price" : 2.5
+  } ],
+  "sum" : 135.7
+}
+{
+  "id" : 2,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 9,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 27,
+    "price" : 2.3
+  } ],
+  "sum" : 62.099999999999994
+}
+{
+  "id" : 3,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 7,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 11,
+    "price" : 2.3
+  } ],
+  "sum" : 25.299999999999997
+}
+{
+  "id" : 4,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 10,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 20,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 16,
+    "price" : 1.2
+  } ],
+  "sum" : 65.2
+}
+{
+  "id" : 5,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 1,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 0,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 28,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 19,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 26,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 9,
+    "price" : 5.0
+  } ],
+  "sum" : 185.4
+}
+{
+  "id" : 6,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 16,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 24,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 20,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 4,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 8,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 23,
+    "price" : 5.0
+  } ],
+  "sum" : 223.0
+}
+{
+  "id" : 7,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 18,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 22,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 24,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 8,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 28,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 20,
+    "price" : 5.0
+  } ],
+  "sum" : 267.0
+}
+{
+  "id" : 8,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 5,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 13,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 20,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 22,
+    "price" : 2.2
+  } ],
+  "sum" : 102.30000000000001
+}
+{
+  "id" : 9,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 6,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 25,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 24,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 0,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 22,
+    "price" : 2.5
+  } ],
+  "sum" : 141.29999999999998
+}
+{
+  "id" : 10,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 11,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 28,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 7,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 8,
+    "price" : 2.2
+  } ],
+  "sum" : 90.4
+}
+{
+  "id" : 11,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 4,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 21,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 23,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 16,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 15,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 26,
+    "price" : 5.0
+  } ],
+  "sum" : 278.6
+}
+{
+  "id" : 12,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 15,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 18,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 17,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 25,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 3,
+    "price" : 2.5
+  } ],
+  "sum" : 124.30000000000001
+}
+{
+  "id" : 13,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 15,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 21,
+    "price" : 2.3
+  } ],
+  "sum" : 48.3
+}
+{
+  "id" : 14,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 9,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 19,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 15,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 19,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 25,
+    "price" : 2.5
+  } ],
+  "sum" : 166.0
+}
+{
+  "id" : 15,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 16,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 13,
+    "price" : 2.3
+  } ],
+  "sum" : 29.9
+}
+{
+  "id" : 16,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 8,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 8,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 14,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 24,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 26,
+    "price" : 2.5
+  } ],
+  "sum" : 153.0
+}
+{
+  "id" : 17,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 12,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 26,
+    "price" : 2.3
+  } ],
+  "sum" : 59.8
+}
+{
+  "id" : 18,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 10,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 23,
+    "price" : 2.3
+  } ],
+  "sum" : 52.9
+}
+{
+  "id" : 19,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 8,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 4,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 1,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 21,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 10,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 4,
+    "price" : 5.0
+  } ],
+  "sum" : 101.6
+}
+{
+  "id" : 20,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 6,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 6,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 2,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 12,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 7,
+    "price" : 2.5
+  } ],
+  "sum" : 60.1
+}
+{
+  "id" : 21,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 12,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 5,
+    "price" : 2.3
+  } ],
+  "sum" : 11.5
+}
+{
+  "id" : 22,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 20,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 26,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 14,
+    "price" : 1.2
+  } ],
+  "sum" : 76.6
+}
+{
+  "id" : 23,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 8,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 18,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 23,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 16,
+    "price" : 2.2
+  } ],
+  "sum" : 104.2
+}
+{
+  "id" : 24,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 16,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 17,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 15,
+    "price" : 1.2
+  } ],
+  "sum" : 57.099999999999994
+}
+{
+  "id" : 25,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 6,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 27,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 16,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 6,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 1,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 28,
+    "price" : 5.0
+  } ],
+  "sum" : 237.0
+}
+{
+  "id" : 26,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 7,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 0,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 25,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 10,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 28,
+    "price" : 2.5
+  } ],
+  "sum" : 122.0
+}
+{
+  "id" : 27,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 1,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 19,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 11,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 0,
+    "price" : 2.2
+  } ],
+  "sum" : 56.89999999999999
+}
+{
+  "id" : 28,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 2,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 23,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 11,
+    "price" : 1.2
+  } ],
+  "sum" : 66.1
+}
+{
+  "id" : 29,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 17,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 2,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 12,
+    "price" : 1.2
+  } ],
+  "sum" : 19.0
+}
+{
+  "id" : 30,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 3,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 7,
+    "price" : 2.3
+  } ],
+  "sum" : 16.099999999999998
+}
+{
+  "id" : 31,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 6,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 12,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 26,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 15,
+    "price" : 2.2
+  } ],
+  "sum" : 91.8
+}
+{
+  "id" : 32,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 15,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 0,
+    "price" : 2.3
+  } ],
+  "sum" : 0.0
+}
+{
+  "id" : 33,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 12,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 2,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 11,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 19,
+    "price" : 2.2
+  } ],
+  "sum" : 59.6
+}
+{
+  "id" : 34,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 6,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 8,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 9,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 25,
+    "price" : 2.2
+  } ],
+  "sum" : 84.2
+}
+{
+  "id" : 35,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 1,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 27,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 28,
+    "price" : 1.2
+  } ],
+  "sum" : 95.69999999999999
+}
+{
+  "id" : 36,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 9,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 24,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 22,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 1,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 3,
+    "price" : 2.5
+  } ],
+  "sum" : 91.3
+}
+{
+  "id" : 37,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 4,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 13,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 16,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 14,
+    "price" : 2.2
+  } ],
+  "sum" : 79.9
+}
+{
+  "id" : 38,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 6,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 10,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 1,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 6,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 12,
+    "price" : 2.5
+  } ],
+  "sum" : 67.4
+}
+{
+  "id" : 39,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 10,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 7,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 4,
+    "price" : 1.2
+  } ],
+  "sum" : 20.9
+}
+{
+  "id" : 40,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 18,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 0,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 7,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 21,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 21,
+    "price" : 2.5
+  } ],
+  "sum" : 107.1
+}
+{
+  "id" : 41,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 4,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 25,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 14,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 25,
+    "price" : 2.2
+  } ],
+  "sum" : 129.3
+}
+{
+  "id" : 42,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 6,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 0,
+    "price" : 2.3
+  } ],
+  "sum" : 0.0
+}
+{
+  "id" : 43,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 17,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 27,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 3,
+    "price" : 1.2
+  } ],
+  "sum" : 65.69999999999999
+}
+{
+  "id" : 44,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 10,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 0,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 20,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 1,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 25,
+    "price" : 2.5
+  } ],
+  "sum" : 88.7
+}
+{
+  "id" : 45,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 18,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 29,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 3,
+    "price" : 1.2
+  } ],
+  "sum" : 70.29999999999998
+}
+{
+  "id" : 46,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 15,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 15,
+    "price" : 2.3
+  } ],
+  "sum" : 34.5
+}
+{
+  "id" : 47,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 4,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 2,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 19,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 4,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 28,
+    "price" : 2.5
+  } ],
+  "sum" : 106.2
+}
+{
+  "id" : 48,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 8,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 11,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 19,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 0,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 0,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 10,
+    "price" : 5.0
+  } ],
+  "sum" : 98.1
+}
+{
+  "id" : 49,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 3,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 18,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 22,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 11,
+    "price" : 2.2
+  } ],
+  "sum" : 92.0
+}
+{
+  "id" : 50,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 4,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 15,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 10,
+    "price" : 1.2
+  } ],
+  "sum" : 46.5
+}
+{
+  "id" : 51,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 19,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 17,
+    "price" : 2.3
+  } ],
+  "sum" : 39.099999999999994
+}
+{
+  "id" : 52,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 10,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 22,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 24,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 2,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 4,
+    "price" : 2.5
+  } ],
+  "sum" : 93.8
+}
+{
+  "id" : 53,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 8,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 12,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 13,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 23,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 15,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 16,
+    "price" : 5.0
+  } ],
+  "sum" : 211.3
+}
+{
+  "id" : 54,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 11,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 14,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 24,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 18,
+    "price" : 2.2
+  } ],
+  "sum" : 100.6
+}
+{
+  "id" : 55,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 16,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 20,
+    "price" : 2.3
+  } ],
+  "sum" : 46.0
+}
+{
+  "id" : 56,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 18,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 3,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 13,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 26,
+    "price" : 2.2
+  } ],
+  "sum" : 79.7
+}
+{
+  "id" : 57,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 4,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 15,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 25,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 3,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 15,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 26,
+    "price" : 5.0
+  } ],
+  "sum" : 238.6
+}
+{
+  "id" : 58,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 15,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 22,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 0,
+    "price" : 1.2
+  } ],
+  "sum" : 50.599999999999994
+}
+{
+  "id" : 59,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 9,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 25,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 5,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 17,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 11,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 14,
+    "price" : 5.0
+  } ],
+  "sum" : 198.4
+}
+{
+  "id" : 60,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 19,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 24,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 15,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 25,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 8,
+    "price" : 2.5
+  } ],
+  "sum" : 148.2
+}
+{
+  "id" : 61,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 3,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 21,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 6,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 27,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 15,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 28,
+    "price" : 5.0
+  } ],
+  "sum" : 292.4
+}
+{
+  "id" : 62,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 2,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 19,
+    "price" : 2.3
+  } ],
+  "sum" : 43.699999999999996
+}
+{
+  "id" : 63,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 7,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 14,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 23,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 1,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 27,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 26,
+    "price" : 5.0
+  } ],
+  "sum" : 259.5
+}
+{
+  "id" : 64,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 6,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 17,
+    "price" : 2.3
+  } ],
+  "sum" : 39.099999999999994
+}
+{
+  "id" : 65,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 2,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 21,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 7,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 18,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 11,
+    "price" : 2.5
+  } ],
+  "sum" : 123.8
+}
+{
+  "id" : 66,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 15,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 11,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 3,
+    "price" : 1.2
+  } ],
+  "sum" : 28.9
+}
+{
+  "id" : 67,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 4,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 1,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 29,
+    "price" : 1.2
+  } ],
+  "sum" : 37.099999999999994
+}
+{
+  "id" : 68,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 8,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 10,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 19,
+    "price" : 1.2
+  } ],
+  "sum" : 45.8
+}
+{
+  "id" : 69,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 9,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 17,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 0,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 1,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 20,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 20,
+    "price" : 5.0
+  } ],
+  "sum" : 191.3
+}
+{
+  "id" : 70,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 9,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 13,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 9,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 18,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 21,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 19,
+    "price" : 5.0
+  } ],
+  "sum" : 227.8
+}
+{
+  "id" : 71,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 3,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 7,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 7,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 18,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 2,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 1,
+    "price" : 5.0
+  } ],
+  "sum" : 74.1
+}
+{
+  "id" : 72,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 10,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 7,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 20,
+    "price" : 1.2
+  } ],
+  "sum" : 40.099999999999994
+}
+{
+  "id" : 73,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 12,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 4,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 10,
+    "price" : 1.2
+  } ],
+  "sum" : 21.2
+}
+{
+  "id" : 74,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 10,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 14,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 2,
+    "price" : 1.2
+  } ],
+  "sum" : 34.599999999999994
+}
+{
+  "id" : 75,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 10,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 0,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 7,
+    "price" : 1.2
+  } ],
+  "sum" : 8.4
+}
+{
+  "id" : 76,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 16,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 23,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 16,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 3,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 18,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 28,
+    "price" : 5.0
+  } ],
+  "sum" : 263.7
+}
+{
+  "id" : 77,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 18,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 13,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 7,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 27,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 6,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 16,
+    "price" : 5.0
+  } ],
+  "sum" : 192.7
+}
+{
+  "id" : 78,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 14,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 12,
+    "price" : 2.3
+  } ],
+  "sum" : 27.599999999999998
+}
+{
+  "id" : 79,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 16,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 16,
+    "price" : 2.3
+  } ],
+  "sum" : 36.8
+}
+{
+  "id" : 80,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 20,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 7,
+    "price" : 2.3
+  } ],
+  "sum" : 16.099999999999998
+}
+{
+  "id" : 81,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 16,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 11,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 17,
+    "price" : 1.2
+  } ],
+  "sum" : 45.699999999999996
+}
+{
+  "id" : 82,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 9,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 13,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 11,
+    "price" : 1.2
+  } ],
+  "sum" : 43.099999999999994
+}
+{
+  "id" : 83,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 12,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 2,
+    "price" : 2.3
+  } ],
+  "sum" : 4.6
+}
+{
+  "id" : 84,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 1,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 8,
+    "price" : 2.3
+  } ],
+  "sum" : 18.4
+}
+{
+  "id" : 85,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 19,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 13,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 23,
+    "price" : 1.2
+  } ],
+  "sum" : 57.5
+}
+{
+  "id" : 86,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 15,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 6,
+    "price" : 2.3
+  } ],
+  "sum" : 13.799999999999999
+}
+{
+  "id" : 87,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 11,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 9,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 1,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 0,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 9,
+    "price" : 2.5
+  } ],
+  "sum" : 44.4
+}
+{
+  "id" : 88,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 3,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 11,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 3,
+    "price" : 1.2
+  } ],
+  "sum" : 28.9
+}
+{
+  "id" : 89,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 2,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 19,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 15,
+    "price" : 1.2
+  } ],
+  "sum" : 61.699999999999996
+}
+{
+  "id" : 90,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 2,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 29,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 26,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 19,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 18,
+    "price" : 2.5
+  } ],
+  "sum" : 184.7
+}
+{
+  "id" : 91,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 14,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 7,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 7,
+    "price" : 1.2
+  } ],
+  "sum" : 24.5
+}
+{
+  "id" : 92,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 19,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 6,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 26,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 9,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 23,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 12,
+    "price" : 5.0
+  } ],
+  "sum" : 182.3
+}
+{
+  "id" : 93,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 6,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 8,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 6,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 1,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 20,
+    "price" : 2.5
+  } ],
+  "sum" : 77.8
+}
+{
+  "id" : 94,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 7,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 19,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 27,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 4,
+    "price" : 2.2
+  } ],
+  "sum" : 84.89999999999999
+}
+{
+  "id" : 95,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 2,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 23,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 15,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 16,
+    "price" : 2.2
+  } ],
+  "sum" : 106.10000000000001
+}
+{
+  "id" : 96,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 16,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 9,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 12,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 28,
+    "price" : 2.2
+  }, {
+    "name" : "\"chleb ciemny\"",
+    "quantity" : 28,
+    "price" : 2.5
+  }, {
+    "name" : "\"masło\"",
+    "quantity" : 26,
+    "price" : 5.0
+  } ],
+  "sum" : 296.7
+}
+{
+  "id" : 97,
+  "timeStamp" : {
+    "dayOfMonth" : 5,
+    "dayOfWeek" : "THURSDAY",
+    "dayOfYear" : 95,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 13,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 26,
+    "price" : 2.3
+  } ],
+  "sum" : 59.8
+}
+{
+  "id" : 98,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 11,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 24,
+    "price" : 2.3
+  } ],
+  "sum" : 55.199999999999996
+}
+{
+  "id" : 99,
+  "timeStamp" : {
+    "dayOfMonth" : 4,
+    "dayOfWeek" : "WEDNESDAY",
+    "dayOfYear" : 94,
+    "monthValue" : 4,
+    "hour" : 0,
+    "minute" : 0,
+    "nano" : 0,
+    "second" : 0,
+    "month" : "APRIL",
+    "year" : 2018,
+    "chronology" : {
+      "id" : "ISO",
+      "calendarType" : "iso8601"
+    }
+  },
+  "customer_id" : 1,
+  "items" : [ {
+    "name" : "\"mleko 3% 1l\"",
+    "quantity" : 22,
+    "price" : 2.3
+  }, {
+    "name" : "\"bułeczka\"",
+    "quantity" : 4,
+    "price" : 1.2
+  }, {
+    "name" : "\"chleb biały\"",
+    "quantity" : 16,
+    "price" : 2.2
+  } ],
+  "sum" : 90.6
+}

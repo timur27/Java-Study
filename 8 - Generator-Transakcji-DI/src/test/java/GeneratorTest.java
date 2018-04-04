@@ -1,11 +1,11 @@
+import Generator.Generator;
+import Generator.OptionsFiller;
 import org.apache.commons.cli.CommandLine;
 import org.junit.Assert;
 import org.junit.Test;
-import sun.applet.Main;
 
 import java.io.File;
 import java.io.IOException;
-
 
 public class GeneratorTest {
 
@@ -19,7 +19,7 @@ public class GeneratorTest {
                 "-eventsCount 10 " +
                 "-outDir ./output";
 
-        CommandLine testCMD = GeneratorHelper.commandLineExecutor(args.split(" "));
+        CommandLine testCMD = Generator.OptionsFiller.commandLineExecutor(args.split(" "));
 
         Assert.assertTrue(testCMD.hasOption("customerIds"));
     }
@@ -34,15 +34,15 @@ public class GeneratorTest {
                 "-evedsntsCount 10 " +
                 "-outDfir ./output";
 
-        CommandLine testCMD = GeneratorHelper.commandLineExecutor(args.split(" "));
+        CommandLine testCMD = Generator.OptionsFiller.commandLineExecutor(args.split(" "));
 
         Assert.assertEquals(testCMD, null);
     }
 
     @Test
     public void testGeneratorOnCreate(){
-        GeneratorHelper generatorHelper = new GeneratorHelper();
-        Assert.assertTrue(generatorHelper instanceof GeneratorHelper);
+        Generator.OptionsFiller generatorHelper = new OptionsFiller();
+        Assert.assertTrue(generatorHelper instanceof OptionsFiller);
     }
 
     @Test
@@ -50,10 +50,10 @@ public class GeneratorTest {
         String args = "-itemsFile items.csv ";
 //        String [] args = {"-itemsFile", "items.csv"};
 //
-//        CommandLine testCMD = GeneratorHelper.commandLineExecutor(args.split(" "));
+//        CommandLine testCMD = Generator.GeneratorHelper.commandLineExecutor(args.split(" "));
 
         Generator.main(args.split(" "));
-        File testFile = new File("C:\\Users\\TKA\\IdeaProjects\\Java-Commercial\\4 - Transaction-Generator\\build\\libs\\outFileuser.json");
+        File testFile = new File("C:\\Users\\TKA\\IdeaProjects\\Java-Commercial\\4 - Model.Transaction-Generator.Generator\\build\\libs\\outFileuser.json");
 
         Assert.assertFalse(testFile.exists());
     }

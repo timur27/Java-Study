@@ -1,3 +1,5 @@
+package Model;
+
 import lombok.Data;
 
 import java.time.LocalDateTime;

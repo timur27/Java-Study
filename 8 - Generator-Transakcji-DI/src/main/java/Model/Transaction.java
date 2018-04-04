@@ -1,5 +1,5 @@
+package Model;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -15,8 +15,9 @@ public class Transaction {
     private String itemsQuantity;
     private String eventsCount;
     private String outDir;
+    private String formatOption;
 
-    Transaction(){
+    public Transaction(){
         customerID = "1:20";
         LocalTime midnight = LocalTime.MIDNIGHT;
         LocalDate today = LocalDate.now(ZoneId.of("Europe/Warsaw"));
@@ -29,5 +30,9 @@ public class Transaction {
         itemsQuantity = "1:30";
         eventsCount = "100";
         outDir = "outFile";
+    }
+
+    public void setItemsFile(String itemsFile){
+        this.itemsFile = itemsFile;
     }
 }

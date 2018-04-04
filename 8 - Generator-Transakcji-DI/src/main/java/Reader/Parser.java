@@ -1,7 +1,13 @@
-import lombok.extern.slf4j.Slf4j;
+package Reader;
+
+import Model.Item;
+import Model.SavedObject;
+import Model.Transaction;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.annotation.Lazy;
+import org.springframework.stereotype.Service;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,14 +20,17 @@ import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
 
 
+
+@Service
+@Lazy
 public class Parser {
 
     private static final Logger log = LoggerFactory.getLogger("sda");
-    //    private final static Logger logger = LogManager.getLogger("Parser");
+    //    private final static Logger logger = LogManager.getLogger("Reader.Parser");
     private static LocalDateTime aTime;
     private static LocalDateTime bTime;
 
-    public static int[] splitString(String word){
+    public int[] splitString(String word){
         log.info("Begin splitting");
         String [] result = word.split(":");
         int[] res = new int[2];
@@ -31,7 +40,7 @@ public class Parser {
         return res;
     }
 
-    public static LocalDateTime randomDate(){
+    public LocalDateTime randomDate(){
         log.info("Begin with finding random date");
         long days = aTime.until(bTime, ChronoUnit.DAYS);
         long randomDays = ThreadLocalRandom.current().nextLong(days + 1);
@@ -39,7 +48,7 @@ public class Parser {
         return randomDate;
     }
 
-    public static LocalDateTime[] formatDate(String a, String b){
+    public LocalDateTime[] formatDate(String a, String b){
         log.info("Date formatting...");
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
         aTime = LocalDateTime.parse(a, formatter);
@@ -48,7 +57,7 @@ public class Parser {
         return res;
     }
 
-    public static String[] splitDate(String dateRange){
+    public String[] splitDate(String dateRange){
         log.info("Date splitting...");
         String a = dateRange.substring(0, dateRange.length()/2);
         String b = dateRange.substring(dateRange.length()/2+1, dateRange.length());
@@ -56,7 +65,7 @@ public class Parser {
         return ab;
     }
 
-    public static LocalDateTime splitAndRandomDate(String dateRange){
+    public LocalDateTime splitAndRandomDate(String dateRange){
         String []abc = splitDate(dateRange);
         LocalDateTime[] ab = formatDate(abc[0],abc[1]);
         aTime = ab[0];
@@ -66,7 +75,7 @@ public class Parser {
         return randomDate;
     }
 
-    public static int randomize(int a, int b){
+    public int randomize(int a, int b){
         log.info("Randomizer working...");
         Random random = new Random();
         int result = random.nextInt((b-a) + a);
@@ -76,7 +85,7 @@ public class Parser {
 
 
 
-    public static int[] parseValues(Transaction transaction, SavedObject savedObject){
+    public int[] parseValues(Transaction transaction, SavedObject savedObject){
         int[] results;
         log.info("Now string would be splitted");
         results = splitString(transaction.getCustomerID());     //dla customerID
@@ -91,11 +100,11 @@ public class Parser {
     }
 
 
-    public static void parse(Transaction transaction, int id, File file) throws IOException {
+    public void parse(Transaction transaction, int id, File file) throws IOException {
         SavedObject savedObject = new SavedObject();
         log.info("All values would be parsed");
         int[] results = parseValues(transaction, savedObject);
-        int itemsNumber = randomize(results[0], results[1]);        //itemsNumber nie dodaje się do SavedObject
+        int itemsNumber = randomize(results[0], results[1]);        //itemsNumber nie dodaje się do Model.SavedObject
         results = splitString(transaction.getItemsQuantity());      // dla itemsQuantity później
         log.info("Looking for a file");
         Scanner input = new Scanner(new File(transaction.getItemsFile()));
