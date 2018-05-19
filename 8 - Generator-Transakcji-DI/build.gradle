@@ -38,7 +38,7 @@ jar {
 }
 
 task fatJar(type: Jar) {
-    baseName = project.name + '-all'
+    baseName = transaction-generator
     from { configurations.compile.collect { it.isDirectory() ? it : zipTree(it) } }
     with jar
     manifest {
