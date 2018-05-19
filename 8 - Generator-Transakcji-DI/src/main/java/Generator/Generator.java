@@ -34,6 +34,16 @@ public class Generator {
         if (resultTransaction == null)
             return;
 
+
+        File file;
+        if (resultTransaction.getFormatOption().equals("xml"))
+            file = new File(resultTransaction.getOutDir() + ".xml");
+        else if(resultTransaction.getFormatOption().equals("json"))
+            file = new File(resultTransaction.getOutDir() + ".json");
+        else
+            file = new File(resultTransaction.getOutDir() + ".yaml");
+        file.createNewFile();
+
         int eventCount = Integer.valueOf(resultTransaction.getEventsCount());
 
         SavedObjectList savedObjectList = new SavedObjectList();
@@ -43,22 +53,16 @@ public class Generator {
             savedObjectList.add(objectToWrite);
         }
         if (resultTransaction.getFormatOption().equals("xml")){
-            File file = new File(resultTransaction.getOutDir() + ".xml");
-            file.createNewFile();
             log.info("Begin with mapping to xml");
             xmlWriter.writeToFile(savedObjectList,file);
             log.info("Successfully done!");
         }
         else if(resultTransaction.getFormatOption().equals("json")){
-            File file = new File(resultTransaction.getOutDir() + ".json");
-            file.createNewFile();
             log.info("Begin with mapping to json");
             jsonWriter.writeToFile(savedObjectList.getSavedObjects(), file);
             log.info("Successfully done!");
         }
         else if (resultTransaction.getFormatOption().equals("yaml")){
-            File file = new File(resultTransaction.getOutDir() + ".yaml");
-            file.createNewFile();
             log.info("Begin with mapping to YAML");
             yamlWriter.writeToFile(savedObjectList.getSavedObjects(), file);
             log.info("Successfully done!");
