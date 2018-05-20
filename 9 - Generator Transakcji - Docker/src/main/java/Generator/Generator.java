@@ -37,7 +37,8 @@ public class Generator {
         log.info("Starting application");
         Transaction resultTransaction;
 
-        if (args.length != 0 && args[0].equals("D:/generator.properties")){
+        if (args.length != 0 && args[0].equals("storage/generator.properties")){
+            System.out.println("SALAM");
             File fileToReadProperties = new File(propertiesPath);
             Properties props = new Properties();
             BufferedReader bufferedReader = new BufferedReader(new FileReader(fileToReadProperties));
@@ -69,18 +70,17 @@ public class Generator {
         if (resultTransaction == null)
             return;
 
-
         File file;
         if (resultTransaction.getFormatOption().equals("xml")){
-            file = new File("C:\\Users\\TKA\\IdeaProjects\\Java-Commercial\\8 - Generator-Transakcji-DI\\build\\libs\\" + resultTransaction.getOutDir() + ".xml");
+            file = new File( resultTransaction.getOutDir().substring(1) + "/" + "outputFile.xml");
             file.createNewFile();
         }
         else if(resultTransaction.getFormatOption().equals("json")){
-            file = new File("C:\\Users\\TKA\\IdeaProjects\\Java-Commercial\\8 - Generator-Transakcji-DI\\build\\libs\\" + resultTransaction.getOutDir() + ".json");
+            file = new File(resultTransaction.getOutDir().substring(1) + "/" + "outputFile.json");
             file.createNewFile();
         }
         else{
-            file = new File("C:\\Users\\TKA\\IdeaProjects\\Java-Commercial\\8 - Generator-Transakcji-DI\\build\\libs\\" + resultTransaction.getOutDir() + ".yaml");
+            file = new File(resultTransaction.getOutDir().substring(1) + "/" + "outputFile.yaml");
             file.createNewFile();
         }
 
