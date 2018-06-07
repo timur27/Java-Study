@@ -7,3 +7,5 @@ gradle
 .idea
 *.iml
 out
+src
+build

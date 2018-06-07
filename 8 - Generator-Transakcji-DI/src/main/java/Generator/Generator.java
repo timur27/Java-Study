@@ -11,11 +11,13 @@ import Writer.YAMLWriter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import java.io.File;
-import java.io.IOException;
+
+import java.io.*;
+import java.util.Properties;
 
 public class Generator {
     private static final Logger log = LoggerFactory.getLogger("sda");
+
 
     public static void main(String[] args) throws IOException{
         AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
@@ -27,22 +29,60 @@ public class Generator {
         JSONWriter jsonWriter = (JSONWriter) ctx.getBean("JSONWriter");
         YAMLWriter yamlWriter = (YAMLWriter) ctx.getBean("YAMLWriter");
         Parser parser = (Parser) ctx.getBean("Parser");
+        String propertiesPath = "";
+
+        if (args.length != 0)
+            propertiesPath = args[0];
 
         log.info("Starting application");
-        Transaction resultTransaction = transactionGenerator.createAndFillTransaction(args);
+        Transaction resultTransaction;
+
+        if (args.length != 0 && args[0].equals("D:/generator.properties")){
+            System.out.println("HELLO");
+            File fileToReadProperties = new File(propertiesPath);
+            Properties props = new Properties();
+            BufferedReader bufferedReader = new BufferedReader(new FileReader(fileToReadProperties));
+            props.load(bufferedReader);
+
+            String[] parameters = new String[]{
+                    "-customerIds",
+                    props.getProperty("customerIds"),
+                    "-dateRange",
+                    props.getProperty("dateRange").replace("\"", ""),
+                    "-itemsFile",
+                    "." + props.getProperty("itemsFile"),
+                    "-itemsCount",
+                    props.getProperty("itemsCount"),
+                    "-itemsQuantity",
+                    props.getProperty("itemsQuantity"),
+                    "-eventsCount",
+                    props.getProperty("eventsCount"),
+                    "-outDir",
+                    props.getProperty("outDir"),
+                    "--format=" + props.getProperty("format")
+            };
+            resultTransaction = transactionGenerator.createAndFillTransactionFromFile(parameters);
+        }
+        else
+            resultTransaction = transactionGenerator.createAndFillTransaction(args);
+
 
         if (resultTransaction == null)
             return;
 
-
         File file;
-        if (resultTransaction.getFormatOption().equals("xml"))
-            file = new File(resultTransaction.getOutDir() + ".xml");
-        else if(resultTransaction.getFormatOption().equals("json"))
-            file = new File(resultTransaction.getOutDir() + ".json");
-        else
-            file = new File(resultTransaction.getOutDir() + ".yaml");
-        file.createNewFile();
+        if (resultTransaction.getFormatOption().equals("xml")){
+            file = new File( resultTransaction.getOutDir().substring(1) + "/" + "outputFile.xml");
+            file.createNewFile();
+        }
+        else if(resultTransaction.getFormatOption().equals("json")){
+            file = new File(resultTransaction.getOutDir().substring(1) + "/" + "outputFile.json");
+            file.createNewFile();
+        }
+        else{
+            file = new File(resultTransaction.getOutDir().substring(1) + "/" + "outputFile.yaml");
+            file.createNewFile();
+        }
 
         int eventCount = Integer.valueOf(resultTransaction.getEventsCount());
 
@@ -68,6 +108,5 @@ public class Generator {
             log.info("Successfully done!");
         }
 
-        System.out.println(resultTransaction);
     }
 }

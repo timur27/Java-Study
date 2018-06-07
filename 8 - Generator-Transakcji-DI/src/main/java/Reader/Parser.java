@@ -50,7 +50,8 @@ public class Parser {
 
     public LocalDateTime[] formatDate(String a, String b){
         log.info("Date formatting...");
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm");
+        String datePattern = "yyyy-MM-dd'T'HH:mm:ss[.SSS][xxxx]";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern(datePattern);
         aTime = LocalDateTime.parse(a, formatter);
         bTime = LocalDateTime.parse(b, formatter);
         LocalDateTime res[] = {aTime, bTime};
@@ -107,7 +108,7 @@ public class Parser {
         int itemsNumber = randomize(results[0], results[1]);        //itemsNumber nie dodaje się do Model.SavedObject
         results = splitString(transaction.getItemsQuantity());      // dla itemsQuantity później
         log.info("Looking for a file");
-        Scanner input = new Scanner(new File(transaction.getItemsFile()));
+        Scanner input = new Scanner(new File(transaction.getItemsFile().substring(1)));
         List<Item> itemList = new ArrayList<Item>();
         while (input.hasNextLine() && itemsNumber >= 0){
             String line = input.nextLine();

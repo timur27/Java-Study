@@ -1,0 +1,11 @@
+git add.gradle
+build
+gradlew
+gradlew.bat
+gradle
+
+.idea
+*.iml
+out
+src
+build

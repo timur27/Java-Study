@@ -28,6 +28,48 @@ public class OptionsGenerator {
         return options;
     }
 
+    public Transaction fillTransactionFromFile(Transaction transactions, String [] args){
+        Transaction transaction = transactions;
+        for (int i = 0; i < args.length; i++){
+            System.out.println(args[i]);
+            if (args[i].equals("-itemsFile")){
+                transaction.setItemsFile(args[++i]);
+                continue;
+            }
+            else if (args[i].equals("-dateRange")){
+                transaction.setDateRange(args[++i]);
+                continue;
+            }
+            else if (args[i].equals("-customerIds")){
+                transaction.setCustomerID(args[++i]);
+                continue;
+            }
+            else if (args[i].equals("-itemsCount")){
+                transaction.setItemsCount(args[++i]);
+                continue;
+            }
+            else if (args[i].equals("-itemsQuantity")){
+                transaction.setItemsQuantity(args[++i]);
+                continue;
+            }
+            else if (args[i].equals("-eventsCount")){
+                transaction.setEventsCount(args[++i]);
+                continue;
+            }
+            else if (args[i].equals("-outDir")){
+                transaction.setOutDir(args[++i]);
+                continue;
+            }
+            else if (args[i].contains("--format")){
+                transaction.setFormatOption(args[i].substring(9));
+                ++i;
+                System.out.println("TIMA SMATRI " + transaction.getFormatOption());
+                continue;
+            }
+        }
+        return transaction;
+    }
+
     public Transaction fillTransaction(Transaction transaction, CommandLine cmd){
         if (cmd.hasOption("customerIds")){
             transaction.setCustomerID(cmd.getOptionValue("customerIds"));

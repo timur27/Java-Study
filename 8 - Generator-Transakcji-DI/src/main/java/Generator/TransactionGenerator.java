@@ -16,9 +16,21 @@ public class TransactionGenerator {
     public AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext();
     private static final Logger log = LoggerFactory.getLogger("sda");
 
+    public Transaction createAndFillTransactionFromFile(String [] args){
+        ctx.register(AppConfig.class);
+        ctx.refresh();
+
+        OptionsGenerator optionsGenerator = (OptionsGenerator) ctx.getBean("OptionsGenerator");
+        Transaction transaction = new Transaction();
+        transaction = optionsGenerator.fillTransactionFromFile(transaction, args);
+        System.out.println(transaction.getFormatOption());
+        return transaction;
+    }
+
     public Transaction createAndFillTransaction(String [] args){
         ctx.register(AppConfig.class);
         ctx.refresh();
+
         OptionsFiller optionsFiller = (OptionsFiller) ctx.getBean("OptionsFiller");
         OptionsGenerator optionsGenerator = (OptionsGenerator) ctx.getBean("OptionsGenerator");
         Options options = optionsGenerator.fillOptoins(new Options());

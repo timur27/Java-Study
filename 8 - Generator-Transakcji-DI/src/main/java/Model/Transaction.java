@@ -30,6 +30,7 @@ public class Transaction {
         itemsQuantity = "1:30";
         eventsCount = "100";
         outDir = "outFile";
+        formatOption = "xml";
     }
 
     public void setItemsFile(String itemsFile){
