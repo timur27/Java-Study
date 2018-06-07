@@ -15,7 +15,8 @@ public class JmsProducerQueue {
     private final static Logger logger = LoggerFactory.getLogger("Console");
 
     public JmsProducerQueue(String broker, String queue) throws Exception {
-        f = new ActiveMQConnectionFactory(broker);
+        f = new ActiveMQConnectionFactory();
+        ((ActiveMQConnectionFactory) f).setBrokerURL(broker);
         connection = f.createConnection();
         session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
         Queue q = session.createQueue(queue);
