@@ -1,8 +1,8 @@
-Generator transakcji - Docker
+Logic transakcji - Docker
 ----------------------------
 
 Na repozytorium github umieszczone zostały niezbędne pliki do wystartowania kontenera dockera, a mianowicie pliki items.csv oraz generator.properties, a także zbudowany transaction-generator.jar
-
+* aby zbudować jar, trzeba wykonać polecenie gradle fatjar
 * sudo docker build --tag generator-transakcji .
 * sudo docker run -it -P generator-transakcji:latest
 

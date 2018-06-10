@@ -1,5 +1,7 @@
 FROM openjdk:8-jdk-alpine
-ADD transaction-generator.jar /
+ADD build/libs/transaction-generator.jar /
 run mkdir /storage
+ADD generator.properties /storage
+ADD items.csv /storage
 WORKDIR /
-CMD ["java", "-jar", "transaction-generator.jar", "/storage/generator.properties"]
+CMD ["java", "-jar", "transaction-generator.jar", "storage/generator.properties"]
