@@ -1,6 +1,7 @@
 package pl.edu.uj.ii.tourister;
 
 
+import jdk.net.SocketFlow;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -11,6 +12,7 @@ import pl.edu.uj.ii.tourister.repoitory.HotelRepository;
 import pl.edu.uj.ii.tourister.services.RequestGenerator;
 import pl.edu.uj.ii.tourister.services.XMLParser;
 
+import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -39,14 +41,14 @@ public class TouristerApplication {
                 System.out.println("2: Znaleźć najtańsze podróże");
                 System.out.println("5: Zakończyć działanie aplikacji");
 
-
                 String answer = scn.next();
                 switch (answer){
                     case "1":
-                        for (Hotel hotel: requestGenerator.createAndSendRequest(Statuses.GET_HOTELS)){
+                        List<Hotel> hotelList = requestGenerator.createAndSendRequest(Statuses.GET_HOTELS);
+                        for (Hotel hotel: hotelList){
                             System.out.println(hotel);
-                            dbHelper.performTaskOnData(requestGenerator.createAndSendRequest(Statuses.GET_HOTELS));
                         }
+                        dbHelper.performTaskOnData(hotelList);
                         break;
                     case "2":
                         for (Hotel hotel: hotelRepository.findAll()){
@@ -56,8 +58,8 @@ public class TouristerApplication {
                     case "5":
                         next = false;
                         break;
+                    default: break;
                 }
-                answer = "";
             }
         };
     }

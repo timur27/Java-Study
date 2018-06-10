@@ -40,4 +40,8 @@ public class RequestGenerator {
         distance = scn.next();
         return hotelsRequestHandler.getHotelsFromRequest(destination, distance.equals("") ? "15" : distance).getData();
     }
+
+    public String generateGET(String destination, String distance){
+        return hotelsRequestHandler.getHotelsFromRequest(destination, distance).getData();
+    }
 }
