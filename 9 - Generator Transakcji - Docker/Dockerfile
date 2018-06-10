@@ -4,4 +4,4 @@ run mkdir /storage
 ADD generator.properties /storage
 ADD items.csv /storage
 WORKDIR /
-CMD ["java", "-jar", "transaction-generator.jar", "storage/generator.properties"]
+CMD ["java", "-jar", "transaction-generator.jar", "storage/generator.properties"] 

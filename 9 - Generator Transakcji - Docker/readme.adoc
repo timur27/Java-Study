@@ -1,4 +1,4 @@
-Logic transakcji - Docker
+Logic transakcji - Doccker 
 ----------------------------
 
 Na repozytorium github umieszczone zostały niezbędne pliki do wystartowania kontenera dockera, a mianowicie pliki items.csv oraz generator.properties, a także zbudowany transaction-generator.jar
