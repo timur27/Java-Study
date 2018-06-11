@@ -18,8 +18,6 @@ public class RequestGenerator {
     @Autowired
     private HotelsRequestHandler hotelsRequestHandler;
     @Autowired
-    private DBHelper dbHelper;
-    @Autowired
     private XMLParser xmlParser;
     private Scanner scn = new Scanner(System.in);
 

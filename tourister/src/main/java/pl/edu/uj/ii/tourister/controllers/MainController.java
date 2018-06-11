@@ -1,6 +1,7 @@
 package pl.edu.uj.ii.tourister.controllers;
 
 
+import com.maxmind.geoip2.exception.GeoIp2Exception;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -27,7 +28,7 @@ public class MainController {
 
     @RequestMapping(value = "/hoteldeals", method = RequestMethod.GET, produces = {"application/xml"}, params = {"dest", "distance"})
     @ResponseBody
-    public String getHotel(@RequestParam("dest") String destination, @RequestParam("distance") String distance) throws IOException, SAXException, ParserConfigurationException {
+    public String getHotel(@RequestParam("dest") String destination, @RequestParam("distance") String distance) throws IOException, SAXException, ParserConfigurationException, GeoIp2Exception {
         String hotelData = hotelsRequestHandler.getHotelsFromRequest(destination, distance).getData();
         dbHelper.performTaskOnData(xmlParser.parseAndFill(hotelData));
 

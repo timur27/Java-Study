@@ -1,7 +1,10 @@
 package pl.edu.uj.ii.tourister.model;
 
 import com.maxmind.geoip2.record.Location;
+import org.springframework.stereotype.Service;
 
+
+@Service
 public class ServerLocation {
     private String countryCode;
     private String city;
