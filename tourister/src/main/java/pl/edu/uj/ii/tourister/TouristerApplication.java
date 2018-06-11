@@ -2,6 +2,8 @@ package pl.edu.uj.ii.tourister;
 
 
 import jdk.net.SocketFlow;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -17,6 +19,8 @@ import pl.edu.uj.ii.tourister.services.XMLParser;
 import java.util.List;
 import java.util.Scanner;
 
+
+
 @SpringBootApplication
 public class TouristerApplication {
     @Autowired
@@ -31,6 +35,8 @@ public class TouristerApplication {
     private HotelRepository hotelRepository;
     private Scanner scn = new Scanner(System.in);
 
+    private static final Logger LOG = LoggerFactory.getLogger("tourister-logger");
+
     public static void main(String[] args) {
         SpringApplication.run(TouristerApplication.class, args);
     }
@@ -40,6 +46,7 @@ public class TouristerApplication {
         return args -> {
             boolean next = true;
             while(next){
+                LOG.info("First step to do in our application");
                 System.out.println("Powiedz mi, w czym mogę Tobie teraz pomóc?");
                 System.out.println("1: Wyszukać najkorzystniejsze hotele według miasta?");
                 System.out.println("2: Wyszukać najlepszą lokalizację hotelu od Ciebie");
@@ -47,9 +54,11 @@ public class TouristerApplication {
                 System.out.println("5: Zakończyć działanie aplikacji");
 
                 String answer = scn.next();
+                LOG.info("Wybrano opcje!");
                 switch (answer){
                     case "1":
                         List<Hotel> hotelList = requestGenerator.createAndSendRequest(Statuses.GET_HOTELS);
+                        LOG.info("Done with hotelSearch");
                         for (Hotel hotel: hotelList){
                             System.out.println(hotel);
                         }
@@ -59,7 +68,8 @@ public class TouristerApplication {
                         hotelService.findNearest();
                         break;
                     case "3":
-
+                        hotelService.planeTheTripToHotel();
+                        break;
                     case "5":
                         next = false;
                         break;

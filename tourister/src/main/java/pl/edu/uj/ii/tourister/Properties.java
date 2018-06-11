@@ -7,4 +7,5 @@ public class Properties {
     public static final String BLA_BLA_URL = "http://public-api.blablacar.com/api/v2/trips";
     public static final String USER_AGENT = "Mozilla/5.0";
     public static final String LOCALHOST = "localhost:8080/";
+    public static String aPoint;
 }

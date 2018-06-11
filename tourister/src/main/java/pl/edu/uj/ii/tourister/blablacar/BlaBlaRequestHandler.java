@@ -1,6 +1,7 @@
 package pl.edu.uj.ii.tourister.blablacar;
 
 
+import com.fasterxml.jackson.databind.annotation.JsonAppend;
 import org.springframework.stereotype.Service;
 import pl.edu.uj.ii.tourister.Properties;
 
@@ -8,19 +9,21 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
 import java.net.URL;
 
 @Service
 public class BlaBlaRequestHandler {
-    public void sendGET(String a, String b){
+    public String sendGET(String a, String b){
+        a = Properties.aPoint;
         String params = "?fn=" + a + "&tn=" + b;
         try {
             String result = getTrips(params);
             System.out.println(result);
+            return result;
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return "";
     }
 
     private String getTrips(String params) throws IOException {

@@ -1,5 +1,7 @@
 package pl.edu.uj.ii.tourister.services;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import pl.edu.uj.ii.tourister.model.Hotel;
 import pl.edu.uj.ii.tourister.Properties;
@@ -11,10 +13,15 @@ import java.net.URL;
 
 @Service
 public class HotelsRequestHandler {
+    private Logger LOG = LoggerFactory.getLogger("tourister-logger");
 
     public Response getHotelsFromRequest(String destination, String distance) {
         System.out.println(destination + " " + distance);
-        String params = "?apikey=" + Properties.API_KEY + "&dest=" + destination + "&distance=" + distance;
+        String params;
+        if (distance.equalsIgnoreCase(""))
+            params = "?apikey=" + Properties.API_KEY + "&dest=" + destination;
+        else
+            params = "?apikey=" + Properties.API_KEY + "&dest=" + destination + "&distance=" + distance;
         Response responseClass = new Response();
         try {
             String response = getHotelDeals(params);
@@ -22,7 +29,7 @@ public class HotelsRequestHandler {
             responseClass.setData(response);
             return responseClass;
         } catch (IOException e) {
-            e.printStackTrace();
+            LOG.error("Server doesn't send a RESPONSE. Please, check headers and params!");
         }
         return responseClass;
     }
@@ -39,6 +46,7 @@ public class HotelsRequestHandler {
             result.append(line);
         }
         bufferedReader.close();
+        LOG.info("We have a response");
         return result.toString();
     }
 }

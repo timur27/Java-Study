@@ -1,6 +1,8 @@
 package pl.edu.uj.ii.tourister;
 
 import com.maxmind.geoip2.exception.GeoIp2Exception;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import pl.edu.uj.ii.tourister.blablacar.BlaBlaRequestHandler;
@@ -34,9 +36,11 @@ public class DBHelper {
     private BlaBlaRequestHandler blaBlaRequestHandler;
     @Autowired
     private ServerLocation serverLocation;
+    private Logger LOG = LoggerFactory.getLogger("tourister-logger");
 
 
     public void performTaskOnData(List<Hotel>hotels) throws IOException, GeoIp2Exception {
+        LOG.info("Performing a task on data. Now the user will be able to choose a option he need");
         System.out.println("Otrzymalismy liste hoteli, które są w ofercie. Co chcesz z nimi zrobić?");
         System.out.println("1: Dodać wszystkie hotele do bazy danych");
         System.out.println("2: Dodać tylko najlepszą opcję do bazy danych");
@@ -48,6 +52,7 @@ public class DBHelper {
             case "1":
                 for (Hotel hotel: hotels){
                     hotelRepository.save(hotel);
+                    LOG.info("Saved hotel called: " + hotel.getHotelName() + " in database");
                 }
                 break;
             case "2":
