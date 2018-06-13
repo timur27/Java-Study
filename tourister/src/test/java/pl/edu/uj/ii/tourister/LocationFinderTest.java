@@ -13,9 +13,9 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import pl.edu.uj.ii.tourister.model.ServerLocation;
 import pl.edu.uj.ii.tourister.services.LocationFinder;
+import pl.edu.uj.ii.tourister.services.PojoHelper;
 
 import java.io.IOException;
-import java.net.UnknownHostException;
 
 @SpringBootTest
 @RunWith(SpringRunner.class)

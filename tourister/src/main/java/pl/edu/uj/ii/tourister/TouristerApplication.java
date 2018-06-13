@@ -1,22 +1,17 @@
 package pl.edu.uj.ii.tourister;
 
 
-import jdk.net.SocketFlow;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 import pl.edu.uj.ii.tourister.blablacar.TripAdvisor;
-import pl.edu.uj.ii.tourister.model.Hotel;
 import pl.edu.uj.ii.tourister.repoitory.HotelRepository;
+import pl.edu.uj.ii.tourister.services.DBHelper;
 import pl.edu.uj.ii.tourister.services.HotelService;
 import pl.edu.uj.ii.tourister.services.RequestGenerator;
-import pl.edu.uj.ii.tourister.services.XMLParser;
 
-import java.util.List;
 import java.util.Scanner;
 
 

@@ -1,7 +1,6 @@
 package pl.edu.uj.ii.tourister;
 
 
-import com.fasterxml.jackson.annotation.JsonTypeInfo;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,6 +10,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.xml.sax.SAXException;
 import pl.edu.uj.ii.tourister.model.Hotel;
+import pl.edu.uj.ii.tourister.services.PojoHelper;
 import pl.edu.uj.ii.tourister.services.RequestGenerator;
 import pl.edu.uj.ii.tourister.services.XMLParser;
 

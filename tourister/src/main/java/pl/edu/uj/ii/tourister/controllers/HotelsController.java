@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.xml.sax.SAXException;
-import pl.edu.uj.ii.tourister.DBHelper;
+import pl.edu.uj.ii.tourister.services.DBHelper;
 import pl.edu.uj.ii.tourister.Statuses;
 import pl.edu.uj.ii.tourister.model.Hotel;
 import pl.edu.uj.ii.tourister.model.Response;

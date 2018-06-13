@@ -2,17 +2,14 @@ package pl.edu.uj.ii.tourister.services;
 
 
 import com.maxmind.geoip2.exception.GeoIp2Exception;
-import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.xml.sax.SAXException;
-import pl.edu.uj.ii.tourister.DBHelper;
 import pl.edu.uj.ii.tourister.blablacar.BlaBlaRequestHandler;
 import pl.edu.uj.ii.tourister.model.Hotel;
 import pl.edu.uj.ii.tourister.model.ServerLocation;
-import pl.edu.uj.ii.tourister.model.Trips;
 import pl.edu.uj.ii.tourister.repoitory.HotelRepository;
 
 import javax.xml.parsers.ParserConfigurationException;

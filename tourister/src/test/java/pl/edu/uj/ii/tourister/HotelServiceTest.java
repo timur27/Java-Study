@@ -15,6 +15,7 @@ import pl.edu.uj.ii.tourister.model.Hotel;
 import pl.edu.uj.ii.tourister.model.ServerLocation;
 import pl.edu.uj.ii.tourister.repoitory.HotelRepository;
 import pl.edu.uj.ii.tourister.services.HotelService;
+import pl.edu.uj.ii.tourister.services.PojoHelper;
 import pl.edu.uj.ii.tourister.services.RequestGenerator;
 import java.io.IOException;
 import java.util.List;

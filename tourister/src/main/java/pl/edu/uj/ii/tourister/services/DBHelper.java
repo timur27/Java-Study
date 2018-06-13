@@ -1,4 +1,4 @@
-package pl.edu.uj.ii.tourister;
+package pl.edu.uj.ii.tourister.services;
 
 import com.maxmind.geoip2.exception.GeoIp2Exception;
 import org.slf4j.Logger;

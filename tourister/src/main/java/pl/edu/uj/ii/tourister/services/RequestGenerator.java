@@ -6,7 +6,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.xml.sax.SAXException;
-import pl.edu.uj.ii.tourister.DBHelper;
 import pl.edu.uj.ii.tourister.Properties;
 import pl.edu.uj.ii.tourister.Statuses;
 import pl.edu.uj.ii.tourister.model.Hotel;

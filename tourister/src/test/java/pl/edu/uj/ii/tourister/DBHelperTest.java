@@ -10,6 +10,8 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 import pl.edu.uj.ii.tourister.model.Hotel;
 import pl.edu.uj.ii.tourister.repoitory.HotelRepository;
+import pl.edu.uj.ii.tourister.services.DBHelper;
+import pl.edu.uj.ii.tourister.services.PojoHelper;
 
 import java.util.List;
 
