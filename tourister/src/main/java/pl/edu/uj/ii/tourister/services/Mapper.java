@@ -1,6 +1,7 @@
 package pl.edu.uj.ii.tourister.services;
 
 
+import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Service;
 import pl.edu.uj.ii.tourister.model.Trips;
@@ -18,6 +19,18 @@ public class Mapper {
             e.printStackTrace();
         }
         return null;
+    }
+
+
+    public String mapToJSON(Object o){
+        ObjectMapper mapper = new ObjectMapper();
+        String result = "";
+        try {
+            result = mapper.writeValueAsString(o);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 
 }

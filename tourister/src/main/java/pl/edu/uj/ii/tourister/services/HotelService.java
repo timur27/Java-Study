@@ -7,6 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.xml.sax.SAXException;
+import pl.edu.uj.ii.tourister.DBHelper;
 import pl.edu.uj.ii.tourister.blablacar.BlaBlaRequestHandler;
 import pl.edu.uj.ii.tourister.model.Hotel;
 import pl.edu.uj.ii.tourister.model.ServerLocation;
@@ -32,6 +33,8 @@ public class HotelService {
     @Autowired
     private BlaBlaRequestHandler blaBlaRequestHandler;
     @Autowired
+    private DBHelper dbHelper;
+    @Autowired
     private Mapper mapper;
     private Scanner scn = new Scanner(System.in);
     private Logger LOG = LoggerFactory.getLogger("tourister-logger");
@@ -41,7 +44,10 @@ public class HotelService {
 
     public Hotel findTheCheapest(List<Hotel> hotelList){
         LOG.info("Trying to find the cheapest hotel from the list");
-        return hotelList.stream().min(Comparator.comparing(Hotel::getPrice)).get();
+        if (hotelList.size() == 0)
+            return null;
+        else
+            return hotelList.stream().min(Comparator.comparing(Hotel::getPrice)).get();
     }
 
     public List<Hotel> findNearest()  {
@@ -67,23 +73,27 @@ public class HotelService {
         return null;
     }
 
-    public void planeTheTripToHotel(){
-        System.out.println("These cities you have visited/chosed as the best");
+    public List<String> planeTheTripToHotel(){
+        LOG.info("These cities you have visited/chosed as the best");
         LOG.info("Chosing the best cities with hotels");
         Map<String, List<Hotel>> hotelsPerCity = findBestFromThatWeHave();
         List<String> allWeHave = new ArrayList<>(hotelsPerCity.keySet());
         System.out.println(allWeHave);
-        System.out.println("Do you want to choose something from this?");
-        String chosenCity = scn.next();
-        List<Hotel> concreteCityHotels = hotelsPerCity.get(chosenCity);
-        String resultJSON = blaBlaRequestHandler.sendGET("", chosenCity);
-        Trips foundTrips = mapper.mapToObject(resultJSON);
-        System.out.println("Distance between two points: " + foundTrips.getDistance());
-        System.out.println("Recommended price: " + foundTrips.getRecommended_price());
+        return allWeHave;
     }
 
+//            System.out.println("Do you want to choose something from this?");
+//    String chosenCity = scn.next();
+//    List<Hotel> concreteCityHotels = hotelsPerCity.get(chosenCity);
+//    String resultJSON = blaBlaRequestHandler.sendGET("", chosenCity);
+//    Trips foundTrips = mapper.mapToObject(resultJSON);
+//        System.out.println("Distance between two points: " + foundTrips.getDistance());
+//        System.out.println("Recommended price: " + foundTrips.getRecommended_price());
+
+
+
     public List<Hotel> findAll(){
-        LOG.info("Finding all the hotels"); 
+        LOG.info("Finding all the hotels");
         return hotelRepository.findAll();
     }
 
@@ -91,5 +101,9 @@ public class HotelService {
         List<Hotel> allWeHave = findAll();
         Map<String, List<Hotel>> hotelsPerCity = allWeHave.stream().collect(Collectors.groupingBy(Hotel::getCity));
         return hotelsPerCity;
+    }
+
+    public boolean checkIfDatabaseEmpty(){
+        return dbHelper.getAll().isEmpty();
     }
 }

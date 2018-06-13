@@ -1,5 +1,7 @@
 package pl.edu.uj.ii.tourister.services;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Service;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -42,6 +44,17 @@ public class XMLParser {
         }
 
         return hotelList;
+    }
+
+    public String parseObjectToXML(List<Hotel> hotels) {
+        ObjectMapper objectMapper = new ObjectMapper();
+        String output = "";
+        try {
+            output += objectMapper.writeValueAsString(hotels);
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+        return output;
     }
 
 

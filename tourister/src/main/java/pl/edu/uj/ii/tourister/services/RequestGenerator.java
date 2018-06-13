@@ -25,10 +25,10 @@ public class RequestGenerator {
     private Scanner scn = new Scanner(System.in);
     private Logger LOG = LoggerFactory.getLogger("transaction-logger");
 
-    public List<Hotel> createAndSendRequest(Statuses status) throws IOException, SAXException, ParserConfigurationException {
+    public List<Hotel> createAndSendRequest(Statuses status, String destination, String distance) throws IOException, SAXException, ParserConfigurationException {
         switch (status){
             case GET_HOTELS:
-                return xmlParser.parseAndFill(generateGET());
+                return xmlParser.parseAndFill(generateGET(destination, distance));
         }
         return null;
     }
@@ -42,10 +42,16 @@ public class RequestGenerator {
         System.out.println("Which distance from the place? (Can be empty)");
         LOG.info("Generating GET Request to Hotwire API");
         distance = scn.nextLine();
-        return hotelsRequestHandler.getHotelsFromRequest(destination, distance).getData();
+        return hotelsRequestHandler.getHotelsFromRequest(destination, distance, "xml").getData();
     }
 
-    public String generateGET(String destination, String distance){
-        return hotelsRequestHandler.getHotelsFromRequest(destination, distance).getData();
+    public String generateGET(String ... parameters){
+        String destination = parameters[0];
+        String distance = parameters[1];
+        String format = null;
+        if (parameters.length > 2){
+            format = parameters[2];
+        }
+        return hotelsRequestHandler.getHotelsFromRequest(destination, distance, format).getData();
     }
 }

@@ -8,4 +8,6 @@ import java.util.List;
 public interface HotelRepository extends CrudRepository<Hotel, Integer> {
     List<Hotel> findAll();
 
+    List<Hotel> findByCity(String city);
+
 }

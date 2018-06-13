@@ -1,6 +1,7 @@
 package pl.edu.uj.ii.tourister;
 
 public class Properties {
+    public static final String API_KEY_IPSTACK = "7dafc7b1b960911f52ff7d03101d140b";
     public static final String API_KEY = "udzn5q6jkd3cmtpbwedunpuh";
     public static final String API_KEY_BLABLA = "a41911b16a2345de85624009ecf8bec9";
     public static final String HOT_DEALS_URL = "http://api.hotwire.com/v1/deal/hotel";

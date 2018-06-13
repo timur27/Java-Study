@@ -1,10 +1,9 @@
 package pl.edu.uj.ii.tourister.blablacar;
 
-
-import com.fasterxml.jackson.databind.annotation.JsonAppend;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 import pl.edu.uj.ii.tourister.Properties;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -13,8 +12,10 @@ import java.net.URL;
 
 @Service
 public class BlaBlaRequestHandler {
+    private Logger LOG  = LoggerFactory.getLogger("tourister-logger");
     public String sendGET(String a, String b){
         a = Properties.aPoint;
+        LOG.info("A point is: " + a);
         String params = "?fn=" + a + "&tn=" + b;
         try {
             String result = getTrips(params);

@@ -7,6 +7,7 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 public class Trips {
     private int distance;
     private String recommended_price;
+    private Trip[] top_trips;
 
     public String getRecommended_price() {
         return recommended_price;
@@ -22,6 +23,14 @@ public class Trips {
 
     public void setDistance(int distance) {
         this.distance = distance;
+    }
+
+    public Trip[] getTop_trips() {
+        return top_trips;
+    }
+
+    public void setTop_trips(Trip[] top_trips) {
+        this.top_trips = top_trips;
     }
 
     @Override

@@ -15,7 +15,16 @@ public class ChoosenHotel {
     private String city;
     private double starsRating;
     private String hotelName;
+    private int trip_price;
 
+
+    public int getTrip_price() {
+        return trip_price;
+    }
+
+    public void setTrip_price(int trip_price) {
+        this.trip_price = trip_price;
+    }
 
     public double getPrice() {
         return price;
