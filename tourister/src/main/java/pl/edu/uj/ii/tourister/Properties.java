@@ -1,5 +1,7 @@
 package pl.edu.uj.ii.tourister;
 
+import java.io.File;
+
 public class Properties {
     public static final String API_KEY_IPSTACK = "7dafc7b1b960911f52ff7d03101d140b";
     public static final String API_KEY = "udzn5q6jkd3cmtpbwedunpuh";
@@ -9,4 +11,5 @@ public class Properties {
     public static final String USER_AGENT = "Mozilla/5.0";
     public static final String LOCALHOST = "localhost:8080/";
     public static String aPoint;
+    public static final File ipFile = new File("C:\\Users\\TKA\\IdeaProjects\\Java-Commercial\\tourister\\GeoLite2-City.mmdb");
 }

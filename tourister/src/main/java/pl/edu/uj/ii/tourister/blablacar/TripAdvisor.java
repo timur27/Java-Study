@@ -17,7 +17,4 @@ public class TripAdvisor {
     public ChoosenHotel findLastChoosenHotel(){
         return choosenHotelRepository.findAll().get(choosenHotelRepository.findAll().size()-1);
     }
-
-
-
 }

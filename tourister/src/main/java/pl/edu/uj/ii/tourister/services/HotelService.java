@@ -2,6 +2,7 @@ package pl.edu.uj.ii.tourister.services;
 
 
 import com.maxmind.geoip2.exception.GeoIp2Exception;
+import com.sun.xml.internal.ws.policy.privateutil.PolicyUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,9 +40,6 @@ public class HotelService {
     private Scanner scn = new Scanner(System.in);
     private Logger LOG = LoggerFactory.getLogger("tourister-logger");
 
-
-
-
     public Hotel findTheCheapest(List<Hotel> hotelList){
         LOG.info("Trying to find the cheapest hotel from the list");
         if (hotelList.size() == 0)
@@ -50,28 +48,35 @@ public class HotelService {
             return hotelList.stream().min(Comparator.comparing(Hotel::getPrice)).get();
     }
 
-    public List<Hotel> findNearest()  {
+    public List<Hotel> findNearest(){
+        ServerLocation serverLocation = findServerLocation();
+        String nearHotelsResponse = requestGenerator.generateGET(serverLocation.getCity(), "5");
+        List<Hotel> nearestHotels = parseFromStringToObject(nearHotelsResponse);
+        return nearestHotels;
+    }
+
+    public ServerLocation findServerLocation(){
         ServerLocation serverLocation = null;
         try {
-            LOG.info("Trying to find nearest hotel from those we have");
             serverLocation = locationFinder.findLocationByIP();
-        } catch (IOException e) {
+        }
+        catch (IOException|GeoIp2Exception e){
             LOG.error("Can't find a location. Try to turn on VPN");
-        } catch (GeoIp2Exception e) {
             e.printStackTrace();
         }
-
-        try {
-            return xmlParser.parseAndFill(requestGenerator.generateGET(serverLocation.getCity(), "5"));
-        } catch (ParserConfigurationException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (SAXException e) {
-            e.printStackTrace();
-        }
-        return null;
+        return serverLocation;
     }
+
+    public List<Hotel> parseFromStringToObject(String input){
+        List<Hotel> output = null;
+        try {
+            output = xmlParser.parseAndFill(input);
+        } catch (ParserConfigurationException|IOException|SAXException e) {
+            e.printStackTrace();
+        }
+        return output;
+    }
+
 
     public List<String> planeTheTripToHotel(){
         LOG.info("These cities you have visited/chosed as the best");
@@ -81,16 +86,6 @@ public class HotelService {
         System.out.println(allWeHave);
         return allWeHave;
     }
-
-//            System.out.println("Do you want to choose something from this?");
-//    String chosenCity = scn.next();
-//    List<Hotel> concreteCityHotels = hotelsPerCity.get(chosenCity);
-//    String resultJSON = blaBlaRequestHandler.sendGET("", chosenCity);
-//    Trips foundTrips = mapper.mapToObject(resultJSON);
-//        System.out.println("Distance between two points: " + foundTrips.getDistance());
-//        System.out.println("Recommended price: " + foundTrips.getRecommended_price());
-
-
 
     public List<Hotel> findAll(){
         LOG.info("Finding all the hotels");

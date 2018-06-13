@@ -27,7 +27,7 @@ public class BlaBlaRequestHandler {
         return "";
     }
 
-    private String getTrips(String params) throws IOException {
+    public String getTrips(String params) throws IOException {
         StringBuilder result = new StringBuilder();
         URL url = new URL(Properties.BLA_BLA_URL + params);
         HttpURLConnection httpURLConnection = (HttpURLConnection) url.openConnection();

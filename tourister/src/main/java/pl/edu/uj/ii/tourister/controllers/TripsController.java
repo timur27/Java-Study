@@ -46,7 +46,7 @@ public class TripsController {
 
     @RequestMapping(value = "/blablatrip/info", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
-    public String getTipFromAToB(@RequestParam("city") String bCity){
+    public String getTripFromAToB(@RequestParam("city") String bCity){
         String choosenCity = bCity;
         String response = blaBlaRequestHandler.sendGET(aPoint, bCity);
         Trips tripData = mapper.mapToObject(response);
@@ -92,7 +92,7 @@ public class TripsController {
         tripInfo.setDistance(trips.getDistance());
         tripInfo.setWholePrice();
         tripInfo.setaPoint(a);
-        tripInfo.setbPoint(bPoint); 
+        tripInfo.setbPoint(bPoint);
         return mapper.mapToJSON(tripInfo);
     }
 

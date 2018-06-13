@@ -41,7 +41,7 @@ public class HotelsRequestHandler {
         return responseClass;
     }
 
-    private String getHotelDeals(String params, String acceptType, String starRating) throws IOException{
+    public String getHotelDeals(String params, String acceptType, String starRating) throws IOException{
         LOG.info("The accept type is: " + acceptType);
         StringBuilder result = new StringBuilder();
         if (acceptType != null){
