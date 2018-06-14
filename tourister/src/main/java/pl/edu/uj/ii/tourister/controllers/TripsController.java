@@ -95,8 +95,5 @@ public class TripsController {
         tripInfo.setbPoint(bPoint);
         return mapper.mapToJSON(tripInfo);
     }
-
-
-
 }
 

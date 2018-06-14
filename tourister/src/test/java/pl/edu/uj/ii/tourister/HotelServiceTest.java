@@ -42,7 +42,6 @@ public class HotelServiceTest {
         databaseReader = new DatabaseReader.Builder(Properties.ipFile).build();
     }
 
-    @Test
     public void testFindTheCheapest(){
         List<Hotel> hotels = pojoHelper.generateHotels();
         Hotel resultHotel = hotelService.findTheCheapest(hotels);
